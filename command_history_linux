@@ -1,0 +1,1629 @@
+    1  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+    2  ls
+    3  cd .ssh/
+    4  ls
+    5  hostname
+    6  scp ~/.ssh/bafeng_at_linkedin* bafeng-ld1.linkedin.biz:~/.ssh
+    7  cd ~/.ssh ; chmod 0600 ./*
+    8  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+    9  ls
+   10  cd .ssh
+   11  ls
+   12  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+   13  ls
+   14  hostname
+   15  cd .ssh
+   16  ls
+   17  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+   18  ls
+   19  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+   20  ls
+   21  ssh acctmgr.corp.linkedin.com
+   22  cd .ssh
+   23  ls
+   24  cd ..
+   25  ls
+   26  cd workspace
+   27  ls
+   28  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+   29  ssh svn.corp.linkedin.com
+   30  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+   31  cd trunk
+   32  cd voltron
+   33  ls
+   34  cd .ssh
+   35  cd workspace
+   36  cd ..
+   37  cd workspace
+   38  cd voltron
+   39  cd voltrone
+   40  dir
+   41  cd trunk
+   42  dir
+   43  cd voltron
+   44  dir
+   45  cd ui-test
+   46  dir
+   47  sudo vi /etc/gdm/Init/Defalt
+   48  sudo vi /etc/gdm/Init/Default
+   49  vi /etc/gdm.custom.conf
+   50  sudo vi /etc/gdm/custom.conf
+   51  sudo vino-preferences
+   52  sudo vi /etc/gdm/custom.conf
+   53  sudo vino-preferences
+   54  vi /etc/gdm.custom.conf
+   55  sudo yum search nxmachine
+   56  sudo yum search nxserver
+   57  sudo yum install nxserver.x86_64
+   58  sudo yum search nxnode
+   59  ssh acctmgr.corp.linkedin.com
+   60  ls -la
+   61  rm -rf .ssh
+   62  ls 
+   63  ls -la
+   64  ssh acctmgr.corp.linkedin.com
+   65  sudo vino-preferences
+   66  cd ..
+   67  cd /user
+   68  dir
+   69  cd usr
+   70  dir
+   71  cd nx
+   72  cd NX
+   73  dir
+   74  cd bin
+   75  dir
+   76  nxserver -restart
+   77  gconftool-2 --set /desktop/gnome/remote_access/network_interface --type string "lo"
+   78  sudo /usr/nx/bin/nxserver -restart
+   79  cd user
+   80  sudo /usr/nx/bin/nxserver -restart
+   81  sudo
+   82  ls
+   83  cd
+   84  dir
+   85  cd workspace
+   86  dir
+   87  ls
+   88  dir
+   89  cd trunk
+   90  dir
+   91  ls
+   92  cd voltron
+   93  dir
+   94  cd ui-test
+   95  dir
+   96  ls
+   97  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+   98  cd workspace/
+   99  ls
+  100  cd trunk
+  101  ls
+  102  cd voltron
+  103  ls
+  104  cd ui-test
+  105  ls
+  106  cd java
+  107  ls
+  108  cd com
+  109  ls
+  110  cd linkedin
+  111  ls
+  112  cd voltron
+  113  ls
+  114  cd ui
+  115  ls
+  116  cd test
+  117  ls
+  118  cd groupsearch/
+  119  ls
+  120  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+  121  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchFacet
+  122  cls
+  123  dir
+  124  cd workspace
+  125  ls
+  126  cd trunk
+  127  cd voltron
+  128  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchFacet
+  129  cd ..
+  130  path = %path:/export/apps/xtools/LNKD-firefox/
+  131  path =$path:/export/apps/xtools/LNKD-firefox/
+  132  path=$path:/export/apps/xtools/LNKD-firefox/
+  133  echo $path
+  134  dir
+  135  ls
+  136  cd workspace
+  137  ls
+  138  cd trunk
+  139  ls
+  140  cd voltron
+  141  ls
+  142  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+  143  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination
+  144  path
+  145  $path
+  146  ls
+  147  echo $path
+  148  echo path
+  149  $path
+  150  path
+  151  ~$path
+  152  $path
+  153  echo $path
+  154  echo set
+  155  echo $set
+  156  %set
+  157  %path
+  158  cd ..
+  159  ls
+  160  cd export/
+  161  cd apps/xtools/
+  162  cd lnkd-firefox
+  163  ls
+  164   cd .ssh
+  165  dir
+  166  cd home
+  167  cd ..
+  168  dir
+  169  cd jp,e
+  170  cd home
+  171  dir
+  172  ls
+  173  cd bafeng/
+  174  ls
+  175  cd workspace
+  176  dir
+  177  cd trunk
+  178  ls
+  179  cd voltron/
+  180  ls
+  181  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+  182  cd workspace/
+  183  ls
+  184  cd trunk/
+  185  cd voltron/
+  186  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+  187  cd ..
+  188  cd export/apps/xtools/LNKD-firefox/
+  189  cd ../../../
+  190  cd ..
+  191  cd .ss
+  192  ls
+  193  cd home/
+  194  ls
+  195  cd bafeng/
+  196  ls
+  197  cd workspace/
+  198  cd trunk/voltron
+  199  echo $path
+  200  cd ..
+  201  ls
+  202  cd etc
+  203  dir
+  204  ls
+  205  cd environment
+  206  export path=$path:/export/apps/xtools/LNKD-firefox/
+  207  echo $path
+  208  cd workspace/trunk/voltron/
+  209  echo $path
+  210  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+  211  ls
+  212  clear
+  213  export path=$path:/export/content/linkedin/bin/
+  214  export path=$path:/export/apps/xtools/LNKD-firefox/
+  215  cd workspace/trunk/voltron/
+  216  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerificationsts
+  217  echo $path
+  218  export path=$path:/export/content/linkedin/bin/
+  219  export path=$path:/export/apps/xtools/LNKD-firefox/
+  220  cd workspace/trunk/voltron/
+  221  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerificationsts
+  222  export path=$path:/export/content/linkedin/bin
+  223  export path=$path:/export/apps/xtools/LNKD-firefox
+  224  cd workspace/trunk/voltron/
+  225  echo $path
+  226  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerificationsts
+  227  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerificationsts --debug
+  228  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerificationsts
+  229  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerificationsts -Duitf.browser=Chrome
+  230  ligradle uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest --info
+  231  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  232  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  233  ligradle uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  234  ligradle uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+  235  ligradle uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest --info
+  236  cd workspace/trunk/voltron/
+  237  ligradle uiTest -Duitf.browser=Chrome -Duitf.testClassName=com.linkedin.slideshare.uitf.web.tests.leadgen.LeadDashboardTest
+  238  echo $path
+  239  export path=$path:/export/content/linkedin/bin
+  240  export path=$path:/export/apps/xtools/LNKD-firefox
+  241  cd workspace/trunk/voltron/
+  242  echo $path
+  243  ligradle uiTest -Duitf.browser=Chrome -Duitf.testClassName=com.linkedin.slideshare.uitf.web.tests.leadgen.LeadDashboardTest
+  244  pwd
+  245  firefox
+  246  ~/firefox/firefox
+  247  export path=$path:/export/content/linkedin/bin
+  248  export path=$path:/export/apps/xtools/LNKD-firefox
+  249  cd workspace/trunk/voltron/
+  250  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyConnectButtonVisibilityTest.testVerifyConnectButtonVisibilityForThirdDegreeUser
+  251  ls
+  252  [bafeng@bafeng-ld1 voltron]$ ligradle uiTest -Duitf.browser=Chrome -Duitf.testClassName=com.linkedin.slideshare.uitf.web.tests.leadgen.LeadDashboardTest
+  253  ./ide-bootstrap --ide idea
+  254  cd ..
+  255  ls
+  256  ./ide-bootstrap --ide idea
+  257  ligradle idea
+  258  ligradle -D uitf.groupsToInclude=GROUP_SEARCH_SANITY uiTest
+  259  ls
+  260  cd voltron/
+  261  cd ui-test
+  262  ligradle -D uitf.groupsToInclude=GROUP_SEARCH_SANITY uiTest
+  263  ligradle -Duift.grousToInclude=GROUP_SEARCH_SANITY -Duift.host=localhost uiTest --info
+  264  ligradle uiTest -Duift.grousToInclude=GROUP_SEARCH_SANITY -Duift.host=localhost --info
+  265  ligradle uiTest -Duitf.grousToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  266  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  267  cd ~
+  268  tar xjf firefox-*.tar.bz2
+  269  cd firefox/
+  270  ls
+  271  firefox
+  272  cd ..
+  273  ~/firefox/firefox
+  274  pwd
+  275  cd workspace/trunk/voltron/ui-test/
+  276  export path=$path:/export/content/linkedin/bin
+  277  export path=$path:/home/bafeng/firefox
+  278  echo $path
+  279  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  280  echo path
+  281  path=$path:/export/apps/xtools/LNKD-firefox
+  282  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  283  export path=$path:/export/content/linkedin/bin
+  284  export path=$path:/home/bafeng/firefox
+  285  cd workspace/trunk/voltron/ui-test/
+  286  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  287  echo $path
+  288  pwd
+  289  export path=/home/bafeng/firefox
+  290  echo $path
+  291  cd workspace/trunk/voltron/ui-test/
+  292  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  293  echo $path
+  294  path=$path::/export/content/linkedin/bin
+  295  echo $path
+  296  export path=/home/bafeng/firefox:/export/content/linkedin/bin
+  297  cd workspace/trunk/voltron/ui-test/
+  298  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  299  export path=/home/bafeng/firefox:/export/content/linkedin/bin
+  300  cd workspace/trunk/voltron/ui-test/
+  301  echo $path
+  302  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost -Duitf.browser=firefox --info
+  303  echo $path
+  304  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerificationsts
+  305  ligradle uiTest --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchBasicUITests.testVoltronJobSearchPagination
+  306  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+  307  export path=/export/apps/xtools/LNKD-firefox:/export/content/linkedin/bin
+  308  cd workspace/trunk/voltron/ui-test/
+  309  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  310  ~/firefox/firefox
+  311  firefox
+  312  path=~/firefox
+  313  echo $path
+  314  firefox
+  315  ~/firefox/firefox
+  316  path=~/firefox/firefox
+  317  echo $path
+  318  firefox
+  319  $path
+  320  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  321  cd ~
+  322  ls
+  323  cd workspace/trunk/voltron/ui-test/
+  324  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  325  cd workspace/trunk/voltron/ui-test/
+  326  path=~/firefox
+  327  echo $path
+  328  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  329  cd ..ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+  330  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost -Duitf.browser=iexplore --info
+  331  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=supergrid.corp.linkedin.com -Duitf.browser=firefox --info
+  332  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost -Duitf.browser=firefox --info
+  333  echo $path
+  334  path=~/firefox/firefox
+  335  path=~/firefox
+  336  echo $path
+  337  export PATH=~/firefox/
+  338  echo $path
+  339  echo $PATH
+  340  path=~/
+  341  echo $path
+  342  echo $PATH
+  343  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost -Duitf.browser=firefox --info
+  344  pwd
+  345  cd workspace/trunk/voltron/ui-test/
+  346  PATH=~/firefox/
+  347  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost -Duitf.browser=firefox --info
+  348  ligradle
+  349  ligradle idea
+  350  sudo yum search firefox
+  351  su mpfeiffe
+  352  su liadmin
+  353  echo $PATH
+  354  PATH=$PATH:~/firefox/
+  355  cd workspace/trunk/voltron/ui-test/
+  356  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost -Duitf.browser=firefox --info
+  357  echo $PATH
+  358  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost -Duitf.browser=firefox --info
+  359  igradle -D uitf.groupsToInclude=GROUP_SEARCH
+  360   uiTest --tests com.linkedin.voltron.ui.test.groupsearch
+  361   . SNAVoltronGroupSearchBasicTest.testGroupSearchInCommonConnections
+  362  igradle -D uitf.groupsToInclude=GROUP_SEARCH
+  363   uiTest --tests com.linkedin.voltron.ui.test.groupsearch
+  364   . SNAVoltronGroupSearchBasicTest.testGroupSearchInCommonConnectionsigradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchInCommonConnections
+  365  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchInCommonConnections
+  366  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination
+  367  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchSpellCheckVerificationTest.testspellCheckLowConfidenceInGroupSRP
+  368  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPrimarySecondaryActions
+  369  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination
+  370  PATH=$PATH:~/firefox/
+  371  cd workspace/trunk/voltron/ui-test/
+  372  echo $PATH
+  373  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination
+  374  gradle com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination
+  375  ligradle --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination
+  376  ligradle -a -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination
+  377  ligradle -?
+  378  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination --offline
+  379  env
+  380  clear
+  381  env
+  382  clear
+  383  ligradle -a -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination
+  384  PATH=$PATH:~/firefox/
+  385  cd workspace/trunk/voltron/ui-test/
+  386  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  387  ligradle -a -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination
+  388  cd ..
+  389  find -iname "projects-spec.json"
+  390  find -iname "project-spec.json"
+  391  find -iname "fabric.src"
+  392  ls
+  393  cd voltron
+  394  cd trunk/voltron/ui-test/
+  395  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySearchBasicTest.testCompanySearchAction
+  396  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySearchBasicTest.testCompanySearchAction
+  397  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.companysearch.testCompanySearchAction
+  398  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  399  ligradle -D uitf.groupsToInclude= uiTest --tests com.linkedin.voltron.ui.test.companysearc.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  400  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests voltron-ui-test.com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanyTitleAndLogoVerification
+  401  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests voltron-ui-test.com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  402  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  403  ligradle -D uitf.groupsToInclude=All uiTest --tests voltron-ui-test.com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  404  ligradle uiTest --tests voltron-ui-test.com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  405  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  406  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchFacetTypeahead
+  407  history
+  408  pwd
+  409  cd workspace/
+  410  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  411  ls
+  412  cd trunck
+  413  ls
+  414  cd trunk/
+  415  ls
+  416  pwd
+  417  ls
+  418  cd voltron/
+  419  ls
+  420  cd ui-test
+  421  ls
+  422  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchFacetTypeahead
+  423  pwf
+  424  pwd
+  425  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.verifyInboxPage
+  426  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  427  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  428  PATH=$PATH:~/firefox/
+  429  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  430  ant test
+  431  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  432  java -verison
+  433  java /?
+  434  java ?
+  435  java help
+  436  java -version
+  437  whereis java
+  438  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronFederatedCompanyTest.testFederatedCompanyClusterVerification
+  439  ligradle -D uitf.groupsToInclude=FEDERATED_COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronFederatedCompanyTest.testFederatedCompanyClusterVerification
+  440  ligradle uitest -D uitf.groupsToInclude=COMPANY_SEARCH_HIGH
+  441  /home/bafeng/workspace/trunk/build/voltron-ui-test/test-results/custom_reports/testsuite_junit.xml
+  442  ligradle uitest -D uitf.groupsToInclude=COMPANY_SEARCH_HIGH
+  443  pwd
+  444  cd ../..
+  445  pwd
+  446  cd ..
+  447  pwd
+  448  mint checkout uitf-java-workshop_trunk
+  449  mint checkout uitf-java-workshop
+  450  cd uitf-java-workshop_trunk/
+  451  mkdir workshop_edlee
+  452  mkdir config/test/workshop_edlee
+  453  mkdir config/test/workshop_edlee/app-defs
+  454  mkdir config/test/workshop_edlee/EI2
+  455  mkdir -p workshop_edlee/src/uiTest/java
+  456  mkdir workshop_edlee/src/uiTest/resources
+  457  ls
+  458  cd workshop_edlee/
+  459  ligradle build
+  460  ECHO $PATH
+  461  echo $PATH
+  462  PATH=$PATH:/export/apps/xtools/LNKD-firefox:/export/content/linkedin/bin
+  463  echo $PATH
+  464  find "IntelliJIdeaXX"
+  465  find "IntelliJIdea*"
+  466  find "IntelliJIdea??"
+  467  find "IntelliJIdea14"
+  468  cd workspace/
+  469  ls
+  470  cd uitf-java-workshop_trunk/
+  471  ligradle -Duitf.browser=chrome -Duitf.groupsToInclude=web_desktop_edlee uiTest --test 
+  472  ligradle -Duitf.browser=firefox -Duitf.groupsToInclude=web_desktop_edlee uiTest --test com.linkedin.uitf.workshop.web.LoginTest.testLogin
+  473  ligradle -Duitf.browser=firefox -Duitf.groupsToInclude=web_desktop_edlee uiTest --tests com.linkedin.uitf.workshop.web.LoginTest.testLogin
+  474  ligradle -D uiTest --tests com.linkedin.uitf.workshop.web.LoginTest.testLogin
+  475  ligradle uiTest --tests com.linkedin.uitf.workshop.web.LoginTest.testLogin
+  476  PATH=$PATH:/export/apps/xtools/LNKD-firefox:/export/content/linkedin/bin
+  477  ls
+  478  cd workspace/
+  479  ;ls
+  480  ls
+  481  cd uitf-java-workshop_trunk/
+  482  ls
+  483  cd workshop_edlee/
+  484  ligradle ideapwd
+  485  pwd
+  486  ligradle idea
+  487  $PATH
+  488  intellij
+  489  intellj
+  490  '/usr/share/applications/LNKD-intellij-14.desktop' 
+  491  '/usr/share/applications/LNKD-intellij-14.desktop
+  492  $PATH
+  493  /export/apps/xtools/LNKD-intellij-14/bin/idea.sh
+  494  ~/firefox/firefox
+  495  cd ../..
+  496  cd trunk/voltron/ui-test/
+  497  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  498  $PATH
+  499  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  500  cd workspace/trunk/voltron/ui-test/
+  501  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  502  firefox
+  503  cd workspace/uitf-java-workshop_trunk/
+  504  ls
+  505  cd workshop_edlee/
+  506  ls
+  507  PATH=$PATH:/home/bafeng/firefox/
+  508  /export/apps/xtools/LNKD-intellij-14/bin/idea.sh
+  509  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  510  ligradle -Duitf.browser=firefox -Duitf.groupsToInclude=web_desktop_edlee uiTest
+  511  ligradle -Duitf.browser=firefox -Duitf.groupsToInclude=web_desktop_edlee uiTest --tests com.linkedin.uitf.workshop.web.LoginTest.testLogin
+  512  ligradle uiTest --tests com.linkedin.uitf.workshop.web.LoginTest.testLogin
+  513  ligradle -Duitf.groupsToInclude=web_desktop_edlee uiTest --tests com.linkedin.uitf.workshop.web.LoginTest.testLogin
+  514  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  515  ligradle -Duitf.groupsToInclude=web_desktop_edlee uiTest --tests com.linkedin.uitf.workshop.web.LoginTest.testLogin
+  516  ligradle build
+  517  ligradle idea
+  518  cd ..
+  519  mint checkout --lkg home-play
+  520  sudo ln -s /usr/bin/gcc /usr/bin/gcc-4.2
+  521  mint checkout --lkg home-play
+  522  cd home-play_c6bacd4b9cd538907ec8ca43ff97c2b16ca7b701
+  523  play run || play run
+  524  mint checkout --lkg home-play
+  525  mkdir home-play_c6bacd4b9cd538907ec8ca43ff97c2b16ca7b701
+  526  cd ~/.ssh
+  527  ls
+  528  cd workspace/
+  529  pwd
+  530  mint checkout --lkg home-play
+  531  cd home-play_c6bacd4b9cd538907ec8ca43ff97c2b16ca7b701
+  532  play run|| play run
+  533  cd ..
+  534  mint checkout --lkg home-play
+  535  clear
+  536  mint checkout --lkg home-play
+  537  play run || play run
+  538  clear
+  539  play run || play run
+  540  clear
+  541  play run
+  542  cd uitf-java-workshop_trunk/
+  543  ls
+  544  cd workshop_edlee/
+  545  ls
+  546  ligradle build
+  547  ligradle idea
+  548  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  549  $PATH
+  550  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  551  idea.sh
+  552  ./idea.sh
+  553  firefox
+  554  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  555  cd workspace/trunk/voltron/ui-test/
+  556  history
+  557  clear
+  558  cd ..
+  559  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  560  cd trunk/voltron/ui-test/
+  561  ligradle build
+  562  ligradle idea
+  563  cd ..
+  564  ligradle build
+  565  sudo
+  566  sudo cat
+  567  cat idea.vmoptions 
+  568  vi idear.vmoptions
+  569  sudo
+  570  sudu -u
+  571  sudo idea.vmoptions
+  572  vi
+  573  sudo
+  574  sudo vi
+  575  sudo vi idear.vmoptions
+  576  ls
+  577  cd
+  578  ls
+  579  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  580  idea.sh
+  581  sudo vi idea64.vmoptions
+  582  sudo cat idea.vmoptions
+  583  sudo vi idear.vmoptions
+  584  sudo vi idea.vmoptions
+  585  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  586  sudo vi idea.vmoptions
+  587  idea.sh
+  588  ./idea.sh
+  589  cd workspace/trunk/voltron/ui-test/
+  590  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  591  ligradle -D uitf.groupsToInclude=FEDERATED_COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronFederatedCompanyTest.testFederatedCompanyClusterVerification
+  592  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  593  ligradle -D uitf.groupsToInclude=FEDERATED_COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronFederatedCompanyTest.testFederatedCompanyClusterVerification
+  594  sudo vi ./idea.vmoptions
+  595  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  596  cd workspace/trunk/voltron/ui-test/
+  597  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  598  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchInCommonConnections
+  599  [bafeng@bafeng-ld1 ui-test]$ ligradle -D uitf.groupsToInclude=FEDERATED_COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronFederatedCompanyTest.testFederatedCompanyClusterVerification
+  600  ligradle -D uitf.groupsToInclude=FEDERATED_COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronFederatedCompanyTest.testFederatedCompanyClusterVerification
+  601  ligradle -Duitf.groupsToInclude=FEDERATED_COMPANY_SEARCH uiTest --ests com.linkedin.voltron.ui.test.companysearch.SNAVoltronFederatedCompanyTest.testFederatedCompanyClusterVerification
+  602  ligradle -Duitf.groupsToInclude=FEDERATED_COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronFederatedCompanyTest.testFederatedCompanyClusterVerification
+  603  ligradle uiTest -Duitf.groupsToInclude=FEDERATED_COMPANY_SEARCH_008
+  604  ligradle uiTest -Duitf.groupsToInclude=FEDERATED_COMPANY_SEARCH
+  605  ligradle -Duitf.groupsToInclude=GROUP_SEAARCH_SANITY uiTest
+  606  ligradle -Duitf.groupsToInclude=PEOPLE_SEARCH_HIGH_01 uiTest
+  607  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  608  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  609  ./idea.sh
+  610  cd
+  611  cd /etc
+  612  ls
+  613  profile
+  614  cd profile
+  615  profile
+  616  ./profile
+  617  vi ./profile
+  618  vi ./environment
+  619  sudo vi ./environment
+  620  cd ~/
+  621  cd workspace/
+  622  cd trunk
+  623  cd voltron/ui-test/
+  624  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  625  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  626  ./idea.sh
+  627  cat ~/.bash_profile
+  628  ls
+  629  history >commandhistory01.txt
+    2  ssh svn.corp.linkedin.com
+    3  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+    4  cd trunk
+    5  cd voltron
+    6  ls
+    7  cd .ssh
+    8  cd workspace
+    9  cd ..
+   10  cd workspace
+   11  cd voltron
+   12  cd voltrone
+   13  dir
+   14  cd trunk
+   15  dir
+   16  cd voltron
+   17  dir
+   18  cd ui-test
+   19  dir
+   20  sudo vi /etc/gdm/Init/Defalt
+   21  sudo vi /etc/gdm/Init/Default
+   22  vi /etc/gdm.custom.conf
+   23  sudo vi /etc/gdm/custom.conf
+   24  sudo vino-preferences
+   25  sudo vi /etc/gdm/custom.conf
+   26  sudo vino-preferences
+   27  vi /etc/gdm.custom.conf
+   28  sudo yum search nxmachine
+   29  sudo yum search nxserver
+   30  sudo yum install nxserver.x86_64
+   31  sudo yum search nxnode
+   32  ssh acctmgr.corp.linkedin.com
+   33  ls -la
+   34  rm -rf .ssh
+   35  ls 
+   36  ls -la
+   37  ssh acctmgr.corp.linkedin.com
+   38  sudo vino-preferences
+   39  cd ..
+   40  cd /user
+   41  dir
+   42  cd usr
+   43  dir
+   44  cd nx
+   45  cd NX
+   46  dir
+   47  cd bin
+   48  dir
+   49  nxserver -restart
+   50  gconftool-2 --set /desktop/gnome/remote_access/network_interface --type string "lo"
+   51  sudo /usr/nx/bin/nxserver -restart
+   52  cd user
+   53  sudo /usr/nx/bin/nxserver -restart
+   54  sudo
+   55  ls
+   56  cd
+   57  dir
+   58  cd workspace
+   59  dir
+   60  ls
+   61  dir
+   62  cd trunk
+   63  dir
+   64  ls
+   65  cd voltron
+   66  dir
+   67  cd ui-test
+   68  dir
+   69  ls
+   70  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+   71  cd workspace/
+   72  ls
+   73  cd trunk
+   74  ls
+   75  cd voltron
+   76  ls
+   77  cd ui-test
+   78  ls
+   79  cd java
+   80  ls
+   81  cd com
+   82  ls
+   83  cd linkedin
+   84  ls
+   85  cd voltron
+   86  ls
+   87  cd ui
+   88  ls
+   89  cd test
+   90  ls
+   91  cd groupsearch/
+   92  ls
+   93  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+   94  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchFacet
+   95  cls
+   96  dir
+   97  cd workspace
+   98  ls
+   99  cd trunk
+  100  cd voltron
+  101  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchFacet
+  102  cd ..
+  103  path = %path:/export/apps/xtools/LNKD-firefox/
+  104  path =$path:/export/apps/xtools/LNKD-firefox/
+  105  path=$path:/export/apps/xtools/LNKD-firefox/
+  106  echo $path
+  107  dir
+  108  ls
+  109  cd workspace
+  110  ls
+  111  cd trunk
+  112  ls
+  113  cd voltron
+  114  ls
+  115  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+  116  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination
+  117  path
+  118  $path
+  119  ls
+  120  echo $path
+  121  echo path
+  122  $path
+  123  path
+  124  ~$path
+  125  $path
+  126  echo $path
+  127  echo set
+  128  echo $set
+  129  %set
+  130  %path
+  131  cd ..
+  132  ls
+  133  cd export/
+  134  cd apps/xtools/
+  135  cd lnkd-firefox
+  136  ls
+  137   cd .ssh
+  138  dir
+  139  cd home
+  140  cd ..
+  141  dir
+  142  cd jp,e
+  143  cd home
+  144  dir
+  145  ls
+  146  cd bafeng/
+  147  ls
+  148  cd workspace
+  149  dir
+  150  cd trunk
+  151  ls
+  152  cd voltron/
+  153  ls
+  154  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+  155  cd workspace/
+  156  ls
+  157  cd trunk/
+  158  cd voltron/
+  159  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+  160  cd ..
+  161  cd export/apps/xtools/LNKD-firefox/
+  162  cd ../../../
+  163  cd ..
+  164  cd .ss
+  165  ls
+  166  cd home/
+  167  ls
+  168  cd bafeng/
+  169  ls
+  170  cd workspace/
+  171  cd trunk/voltron
+  172  echo $path
+  173  cd ..
+  174  ls
+  175  cd etc
+  176  dir
+  177  ls
+  178  cd environment
+  179  export path=$path:/export/apps/xtools/LNKD-firefox/
+  180  echo $path
+  181  cd workspace/trunk/voltron/
+  182  echo $path
+  183  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+  184  ls
+  185  clear
+  186  export path=$path:/export/content/linkedin/bin/
+  187  export path=$path:/export/apps/xtools/LNKD-firefox/
+  188  cd workspace/trunk/voltron/
+  189  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerificationsts
+  190  echo $path
+  191  export path=$path:/export/content/linkedin/bin/
+  192  export path=$path:/export/apps/xtools/LNKD-firefox/
+  193  cd workspace/trunk/voltron/
+  194  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerificationsts
+  195  export path=$path:/export/content/linkedin/bin
+  196  export path=$path:/export/apps/xtools/LNKD-firefox
+  197  cd workspace/trunk/voltron/
+  198  echo $path
+  199  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerificationsts
+  200  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerificationsts --debug
+  201  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerificationsts
+  202  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerificationsts -Duitf.browser=Chrome
+  203  ligradle uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest --info
+  204  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  205  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  206  ligradle uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  207  ligradle uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+  208  ligradle uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest --info
+  209  cd workspace/trunk/voltron/
+  210  ligradle uiTest -Duitf.browser=Chrome -Duitf.testClassName=com.linkedin.slideshare.uitf.web.tests.leadgen.LeadDashboardTest
+  211  echo $path
+  212  export path=$path:/export/content/linkedin/bin
+  213  export path=$path:/export/apps/xtools/LNKD-firefox
+  214  cd workspace/trunk/voltron/
+  215  echo $path
+  216  ligradle uiTest -Duitf.browser=Chrome -Duitf.testClassName=com.linkedin.slideshare.uitf.web.tests.leadgen.LeadDashboardTest
+  217  pwd
+  218  firefox
+  219  ~/firefox/firefox
+  220  export path=$path:/export/content/linkedin/bin
+  221  export path=$path:/export/apps/xtools/LNKD-firefox
+  222  cd workspace/trunk/voltron/
+  223  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyConnectButtonVisibilityTest.testVerifyConnectButtonVisibilityForThirdDegreeUser
+  224  ls
+  225  [bafeng@bafeng-ld1 voltron]$ ligradle uiTest -Duitf.browser=Chrome -Duitf.testClassName=com.linkedin.slideshare.uitf.web.tests.leadgen.LeadDashboardTest
+  226  ./ide-bootstrap --ide idea
+  227  cd ..
+  228  ls
+  229  ./ide-bootstrap --ide idea
+  230  ligradle idea
+  231  ligradle -D uitf.groupsToInclude=GROUP_SEARCH_SANITY uiTest
+  232  ls
+  233  cd voltron/
+  234  cd ui-test
+  235  ligradle -D uitf.groupsToInclude=GROUP_SEARCH_SANITY uiTest
+  236  ligradle -Duift.grousToInclude=GROUP_SEARCH_SANITY -Duift.host=localhost uiTest --info
+  237  ligradle uiTest -Duift.grousToInclude=GROUP_SEARCH_SANITY -Duift.host=localhost --info
+  238  ligradle uiTest -Duitf.grousToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  239  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  240  cd ~
+  241  tar xjf firefox-*.tar.bz2
+  242  cd firefox/
+  243  ls
+  244  firefox
+  245  cd ..
+  246  ~/firefox/firefox
+  247  pwd
+  248  cd workspace/trunk/voltron/ui-test/
+  249  export path=$path:/export/content/linkedin/bin
+  250  export path=$path:/home/bafeng/firefox
+  251  echo $path
+  252  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  253  echo path
+  254  path=$path:/export/apps/xtools/LNKD-firefox
+  255  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  256  export path=$path:/export/content/linkedin/bin
+  257  export path=$path:/home/bafeng/firefox
+  258  cd workspace/trunk/voltron/ui-test/
+  259  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  260  echo $path
+  261  pwd
+  262  export path=/home/bafeng/firefox
+  263  echo $path
+  264  cd workspace/trunk/voltron/ui-test/
+  265  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  266  echo $path
+  267  path=$path::/export/content/linkedin/bin
+  268  echo $path
+  269  export path=/home/bafeng/firefox:/export/content/linkedin/bin
+  270  cd workspace/trunk/voltron/ui-test/
+  271  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  272  export path=/home/bafeng/firefox:/export/content/linkedin/bin
+  273  cd workspace/trunk/voltron/ui-test/
+  274  echo $path
+  275  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost -Duitf.browser=firefox --info
+  276  echo $path
+  277  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerificationsts
+  278  ligradle uiTest --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchBasicUITests.testVoltronJobSearchPagination
+  279  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+  280  export path=/export/apps/xtools/LNKD-firefox:/export/content/linkedin/bin
+  281  cd workspace/trunk/voltron/ui-test/
+  282  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  283  ~/firefox/firefox
+  284  firefox
+  285  path=~/firefox
+  286  echo $path
+  287  firefox
+  288  ~/firefox/firefox
+  289  path=~/firefox/firefox
+  290  echo $path
+  291  firefox
+  292  $path
+  293  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  294  cd ~
+  295  ls
+  296  cd workspace/trunk/voltron/ui-test/
+  297  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  298  cd workspace/trunk/voltron/ui-test/
+  299  path=~/firefox
+  300  echo $path
+  301  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  302  cd ..ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+  303  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost -Duitf.browser=iexplore --info
+  304  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=supergrid.corp.linkedin.com -Duitf.browser=firefox --info
+  305  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost -Duitf.browser=firefox --info
+  306  echo $path
+  307  path=~/firefox/firefox
+  308  path=~/firefox
+  309  echo $path
+  310  export PATH=~/firefox/
+  311  echo $path
+  312  echo $PATH
+  313  path=~/
+  314  echo $path
+  315  echo $PATH
+  316  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost -Duitf.browser=firefox --info
+  317  pwd
+  318  cd workspace/trunk/voltron/ui-test/
+  319  PATH=~/firefox/
+  320  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost -Duitf.browser=firefox --info
+  321  ligradle
+  322  ligradle idea
+  323  sudo yum search firefox
+  324  su mpfeiffe
+  325  su liadmin
+  326  echo $PATH
+  327  PATH=$PATH:~/firefox/
+  328  cd workspace/trunk/voltron/ui-test/
+  329  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost -Duitf.browser=firefox --info
+  330  echo $PATH
+  331  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost -Duitf.browser=firefox --info
+  332  igradle -D uitf.groupsToInclude=GROUP_SEARCH
+  333   uiTest --tests com.linkedin.voltron.ui.test.groupsearch
+  334   . SNAVoltronGroupSearchBasicTest.testGroupSearchInCommonConnections
+  335  igradle -D uitf.groupsToInclude=GROUP_SEARCH
+  336   uiTest --tests com.linkedin.voltron.ui.test.groupsearch
+  337   . SNAVoltronGroupSearchBasicTest.testGroupSearchInCommonConnectionsigradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchInCommonConnections
+  338  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchInCommonConnections
+  339  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination
+  340  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchSpellCheckVerificationTest.testspellCheckLowConfidenceInGroupSRP
+  341  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPrimarySecondaryActions
+  342  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination
+  343  PATH=$PATH:~/firefox/
+  344  cd workspace/trunk/voltron/ui-test/
+  345  echo $PATH
+  346  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination
+  347  gradle com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination
+  348  ligradle --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination
+  349  ligradle -a -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination
+  350  ligradle -?
+  351  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination --offline
+  352  env
+  353  clear
+  354  env
+  355  clear
+  356  ligradle -a -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination
+  357  PATH=$PATH:~/firefox/
+  358  cd workspace/trunk/voltron/ui-test/
+  359  ligradle uiTest -Duitf.groupsToInclude=GROUP_SEARCH_SANITY -Duitf.host=localhost --info
+  360  ligradle -a -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination
+  361  cd ..
+  362  find -iname "projects-spec.json"
+  363  find -iname "project-spec.json"
+  364  find -iname "fabric.src"
+  365  ls
+  366  cd voltron
+  367  cd trunk/voltron/ui-test/
+  368  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySearchBasicTest.testCompanySearchAction
+  369  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySearchBasicTest.testCompanySearchAction
+  370  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.companysearch.testCompanySearchAction
+  371  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  372  ligradle -D uitf.groupsToInclude= uiTest --tests com.linkedin.voltron.ui.test.companysearc.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  373  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests voltron-ui-test.com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanyTitleAndLogoVerification
+  374  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests voltron-ui-test.com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  375  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  376  ligradle -D uitf.groupsToInclude=All uiTest --tests voltron-ui-test.com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  377  ligradle uiTest --tests voltron-ui-test.com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  378  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  379  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchFacetTypeahead
+  380  history
+  381  pwd
+  382  cd workspace/
+  383  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  384  ls
+  385  cd trunck
+  386  ls
+  387  cd trunk/
+  388  ls
+  389  pwd
+  390  ls
+  391  cd voltron/
+  392  ls
+  393  cd ui-test
+  394  ls
+  395  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchFacetTypeahead
+  396  pwf
+  397  pwd
+  398  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.verifyInboxPage
+  399  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  400  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  401  PATH=$PATH:~/firefox/
+  402  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  403  ant test
+  404  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  405  java -verison
+  406  java /?
+  407  java ?
+  408  java help
+  409  java -version
+  410  whereis java
+  411  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronFederatedCompanyTest.testFederatedCompanyClusterVerification
+  412  ligradle -D uitf.groupsToInclude=FEDERATED_COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronFederatedCompanyTest.testFederatedCompanyClusterVerification
+  413  ligradle uitest -D uitf.groupsToInclude=COMPANY_SEARCH_HIGH
+  414  /home/bafeng/workspace/trunk/build/voltron-ui-test/test-results/custom_reports/testsuite_junit.xml
+  415  ligradle uitest -D uitf.groupsToInclude=COMPANY_SEARCH_HIGH
+  416  pwd
+  417  cd ../..
+  418  pwd
+  419  cd ..
+  420  pwd
+  421  mint checkout uitf-java-workshop_trunk
+  422  mint checkout uitf-java-workshop
+  423  cd uitf-java-workshop_trunk/
+  424  mkdir workshop_edlee
+  425  mkdir config/test/workshop_edlee
+  426  mkdir config/test/workshop_edlee/app-defs
+  427  mkdir config/test/workshop_edlee/EI2
+  428  mkdir -p workshop_edlee/src/uiTest/java
+  429  mkdir workshop_edlee/src/uiTest/resources
+  430  ls
+  431  cd workshop_edlee/
+  432  ligradle build
+  433  ECHO $PATH
+  434  echo $PATH
+  435  PATH=$PATH:/export/apps/xtools/LNKD-firefox:/export/content/linkedin/bin
+  436  echo $PATH
+  437  find "IntelliJIdeaXX"
+  438  find "IntelliJIdea*"
+  439  find "IntelliJIdea??"
+  440  find "IntelliJIdea14"
+  441  cd workspace/
+  442  ls
+  443  cd uitf-java-workshop_trunk/
+  444  ligradle -Duitf.browser=chrome -Duitf.groupsToInclude=web_desktop_edlee uiTest --test 
+  445  ligradle -Duitf.browser=firefox -Duitf.groupsToInclude=web_desktop_edlee uiTest --test com.linkedin.uitf.workshop.web.LoginTest.testLogin
+  446  ligradle -Duitf.browser=firefox -Duitf.groupsToInclude=web_desktop_edlee uiTest --tests com.linkedin.uitf.workshop.web.LoginTest.testLogin
+  447  ligradle -D uiTest --tests com.linkedin.uitf.workshop.web.LoginTest.testLogin
+  448  ligradle uiTest --tests com.linkedin.uitf.workshop.web.LoginTest.testLogin
+  449  PATH=$PATH:/export/apps/xtools/LNKD-firefox:/export/content/linkedin/bin
+  450  ls
+  451  cd workspace/
+  452  ;ls
+  453  ls
+  454  cd uitf-java-workshop_trunk/
+  455  ls
+  456  cd workshop_edlee/
+  457  ligradle ideapwd
+  458  pwd
+  459  ligradle idea
+  460  $PATH
+  461  intellij
+  462  intellj
+  463  '/usr/share/applications/LNKD-intellij-14.desktop' 
+  464  '/usr/share/applications/LNKD-intellij-14.desktop
+  465  $PATH
+  466  /export/apps/xtools/LNKD-intellij-14/bin/idea.sh
+  467  ~/firefox/firefox
+  468  cd ../..
+  469  cd trunk/voltron/ui-test/
+  470  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  471  $PATH
+  472  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  473  cd workspace/trunk/voltron/ui-test/
+  474  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  475  firefox
+  476  cd workspace/uitf-java-workshop_trunk/
+  477  ls
+  478  cd workshop_edlee/
+  479  ls
+  480  PATH=$PATH:/home/bafeng/firefox/
+  481  /export/apps/xtools/LNKD-intellij-14/bin/idea.sh
+  482  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  483  ligradle -Duitf.browser=firefox -Duitf.groupsToInclude=web_desktop_edlee uiTest
+  484  ligradle -Duitf.browser=firefox -Duitf.groupsToInclude=web_desktop_edlee uiTest --tests com.linkedin.uitf.workshop.web.LoginTest.testLogin
+  485  ligradle uiTest --tests com.linkedin.uitf.workshop.web.LoginTest.testLogin
+  486  ligradle -Duitf.groupsToInclude=web_desktop_edlee uiTest --tests com.linkedin.uitf.workshop.web.LoginTest.testLogin
+  487  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  488  ligradle -Duitf.groupsToInclude=web_desktop_edlee uiTest --tests com.linkedin.uitf.workshop.web.LoginTest.testLogin
+  489  ligradle build
+  490  ligradle idea
+  491  cd ..
+  492  mint checkout --lkg home-play
+  493  sudo ln -s /usr/bin/gcc /usr/bin/gcc-4.2
+  494  mint checkout --lkg home-play
+  495  cd home-play_c6bacd4b9cd538907ec8ca43ff97c2b16ca7b701
+  496  play run || play run
+  497  mint checkout --lkg home-play
+  498  mkdir home-play_c6bacd4b9cd538907ec8ca43ff97c2b16ca7b701
+  499  cd ~/.ssh
+  500  ls
+  501  cd workspace/
+  502  pwd
+  503  mint checkout --lkg home-play
+  504  cd home-play_c6bacd4b9cd538907ec8ca43ff97c2b16ca7b701
+  505  play run|| play run
+  506  cd ..
+  507  mint checkout --lkg home-play
+  508  clear
+  509  mint checkout --lkg home-play
+  510  play run || play run
+  511  clear
+  512  play run || play run
+  513  clear
+  514  play run
+  515  cd uitf-java-workshop_trunk/
+  516  ls
+  517  cd workshop_edlee/
+  518  ls
+  519  ligradle build
+  520  ligradle idea
+  521  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  522  $PATH
+  523  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  524  idea.sh
+  525  ./idea.sh
+  526  firefox
+  527  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  528  cd workspace/trunk/voltron/ui-test/
+  529  history
+  530  clear
+  531  cd ..
+  532  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  533  cd trunk/voltron/ui-test/
+  534  ligradle build
+  535  ligradle idea
+  536  cd ..
+  537  ligradle build
+  538  sudo
+  539  sudo cat
+  540  cat idea.vmoptions 
+  541  vi idear.vmoptions
+  542  sudo
+  543  sudu -u
+  544  sudo idea.vmoptions
+  545  vi
+  546  sudo
+  547  sudo vi
+  548  sudo vi idear.vmoptions
+  549  ls
+  550  cd
+  551  ls
+  552  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  553  idea.sh
+  554  sudo vi idea64.vmoptions
+  555  sudo cat idea.vmoptions
+  556  sudo vi idear.vmoptions
+  557  sudo vi idea.vmoptions
+  558  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  559  sudo vi idea.vmoptions
+  560  idea.sh
+  561  ./idea.sh
+  562  cd workspace/trunk/voltron/ui-test/
+  563  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  564  ligradle -D uitf.groupsToInclude=FEDERATED_COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronFederatedCompanyTest.testFederatedCompanyClusterVerification
+  565  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  566  ligradle -D uitf.groupsToInclude=FEDERATED_COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronFederatedCompanyTest.testFederatedCompanyClusterVerification
+  567  sudo vi ./idea.vmoptions
+  568  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  569  cd workspace/trunk/voltron/ui-test/
+  570  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  571  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchInCommonConnections
+  572  [bafeng@bafeng-ld1 ui-test]$ ligradle -D uitf.groupsToInclude=FEDERATED_COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronFederatedCompanyTest.testFederatedCompanyClusterVerification
+  573  ligradle -D uitf.groupsToInclude=FEDERATED_COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronFederatedCompanyTest.testFederatedCompanyClusterVerification
+  574  ligradle -Duitf.groupsToInclude=FEDERATED_COMPANY_SEARCH uiTest --ests com.linkedin.voltron.ui.test.companysearch.SNAVoltronFederatedCompanyTest.testFederatedCompanyClusterVerification
+  575  ligradle -Duitf.groupsToInclude=FEDERATED_COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronFederatedCompanyTest.testFederatedCompanyClusterVerification
+  576  ligradle uiTest -Duitf.groupsToInclude=FEDERATED_COMPANY_SEARCH_008
+  577  ligradle uiTest -Duitf.groupsToInclude=FEDERATED_COMPANY_SEARCH
+  578  ligradle -Duitf.groupsToInclude=GROUP_SEAARCH_SANITY uiTest
+  579  ligradle -Duitf.groupsToInclude=PEOPLE_SEARCH_HIGH_01 uiTest
+  580  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  581  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  582  ./idea.sh
+  583  cd
+  584  cd /etc
+  585  ls
+  586  profile
+  587  cd profile
+  588  profile
+  589  ./profile
+  590  vi ./profile
+  591  vi ./environment
+  592  sudo vi ./environment
+  593  cd ~/
+  594  cd workspace/
+  595  cd trunk
+  596  cd voltron/ui-test/
+  597  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  598  PATH=$PATH:/home/bafeng/firefox/:/export/content/linkedin/bin
+  599  ./idea.sh
+  600  vim ~/.bash_profile
+  601  source ~/.bash_profile
+  602  firefox
+  603  ls -la /usr/local/firefox
+  604  vim ~/.bash_profile
+  605  firefox
+  606  vim ~/.bash_profile
+  607  source ~/.bash_profile
+  608  cd ~
+  609  firefox-38.0
+  610  firefox
+  611  exit
+  612  cat ~/.bash_profile
+  613  ls
+  614  history >commandhistory01.txt
+  615  cd workspace/trunk/
+  616  cd ..
+  617  dir
+  618  scp ./trunk/ bafeng@bafeng-mn1:/Users/bafeng/workspace02
+  619  scp -r /home/bafeng/workspace/trunk/ bafeng@bafeng-mn1:/Users/bafeng/workspace02
+  620  cd workspace/trunk/voltron/ui-test/
+  621  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  622  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.federatedsearch.SNAVoltronFederatedCompanyTest.testFederatedCompanyPrimaryResult
+  623  ligradle uiTest -D uitf.groupsToInclude=FEDERATED_COMPANY_SEARCH --tests com.linkedin.voltron.ui.test.federatedsearch.SNAVoltronFederatedCompanyTest.testFederatedCompanyPrimaryResult
+  624  ligradle uiTest -D uitf.groupsToInclude=FEDERATED_JOB_SEARCH --tests com.linkedin.voltron.ui.test.federatedsearch.SNAVoltronFederatedJobTest.testFacetLiteOnFederatedPage
+  625  ligradle uiTest -D uitf.groupsToInclude=FEDERATED_GROUPS_SEARCH --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchSpellCheckVerificationTest.verifySpellCheckLowConfidenceInGroupSrp
+  626  ligradle uiTest -D uitf.groupsToInclude=GROUP_SEARCH --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchSpellCheckVerificationTest.verifySpellCheckLowConfidenceInGroupSrp
+  627  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testVoltronBasicPeopleSavedSearchesTest
+  628  ligradle uiTest -D uitf.groupsToInclude=FEDERATED_JOB_SEARCH --tests com.linkedin.voltron.ui.test.federatedsearch.SNAVoltronFederatedJobTest.testFacetLiteOnFederatedPage
+  629  cat ~/.bash_profile
+  630  cd workspace/
+  631  ls
+  632  cd trunk/
+  633  pwd
+  634  cd workspace/trunk/voltron/ui-test/
+  635  ligradle uiTest -D uitf.groupsToInclude=FEDERATED_JOB_SEARCH --tests com.linkedin.voltron.ui.test.federatedsearch.SNAVoltronFederatedJobTest.testFacetLiteOnFederatedPage
+  636  cd workspace/trunk/voltron/ui-test/
+  637  ligradle uiTest -D uitf.groupsToInclude=FEDERATED_JOB_SEARCH --tests com.linkedin.voltron.ui.test.federatedsearch.SNAVoltronFederatedJobTest.testFacetLiteOnFederatedPage
+  638  ligradle uiTest -D uitf.groupsToInclude=FEDERATED_JOB_SEARCH --tests com.linkedin.voltron.ui.test.federatedsearch.SNAVoltronFederatedJobTest.testFacetLiteOnFederatedPage -Duitf.recordVideo=true
+  639  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.verifyInboxPage
+  640  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  641  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.verifyInboxPage
+  642  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testBasicPeopleSearchPrimaryAndSecondaryActionsTest
+  643  ligradle uiTest -D uitf.groupsToInclude=FEDERATED_PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.federatedsearch.SNAVoltronFederatedBasicTest.testFederatedSearchTransnav
+  644  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testPeopleSearchFacetTypeahead
+  645  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testVoltronBasicPeopleSavedSearchesTest
+  646  ligradle uiTest -D uitf.groupsToInclude=FEDERATED_JOB_SEARCH --tests com.linkedin.voltron.ui.test.federatedsearch.SNAVoltronFederatedJobTest.testFacetLiteOnFederatedPage
+  647  ligradle uiTest -D uitf.groupsToInclude=SNAtestgroupNameConstants.SMOKE --tests com.linkedin.voltron.ui.test.edusearch.SNAUniversitySearchBasicTest.testUniversitySearchPrimarySecondaryActions
+  648  cd workspace/trunk/voltron/ui-test/
+  649  ligradle uiTest -D uitf.groupsToInclude=EDU_SEARCH_SMOKE --tests com.linkedin.voltron.ui.test.edusearch.SNAUniversitySearchBasicTest.testUniversitySearchPrimarySecondaryActions
+  650  ligradle uiTest -D uitf.groupsToInclude=POST_SEARCH --tests com.linkedin.voltron.ui.test.influencercontentsearch.SNAVoltronPostSearchBasicTest.testArticaleTitleAndLogoVerification
+  651  shutdown -r
+  652  shutdown -r +5 "hello"
+  653  ls
+  654  cd workspace/trunk/voltron/ui-test/
+  655  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchResultsTests.testJobSearchNoResultsPageVerification
+  656  cd workspace/trunk/voltron/ui-test/
+  657  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchResultsTests.testJobSearchNoResultsPageVerification
+  658  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH
+  659  cd workspace/trunk/voltron/ui-test/
+  660  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH
+  661  cd workspace/
+  662  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  663  cd workspace/trunk/voltron/ui-test/
+  664  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH SNAVoltronPeopleSearchVerifyPrimaryActionsForThirdDegreeNonSubscriberInmailEnabledTest.testVerifyPrimaryActionsForThirdDegreeNonSubscriberInmailEnabledViewPrimaryAction
+  665  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyPrimaryActionsForThirdDegreeNonSubscriberInmailEnabledTest.testVerifyPrimaryActionsForThirdDegreeNonSubscriberInmailEnabledViewPrimaryAction
+  666  clear
+  667  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyPrimaryActionsForThirdDegreeNonSubscriberInmailEnabledTest.testVerifyPrimaryActionsForThirdDegreeNonSubscriberInmailEnabledViewPrimaryAction
+  668  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronAdvancedPeopleSearchTests.testAdvPeopleSearchResetAndClose
+  669  ligradle uiTest -D uitf.groupsToInclude=EDU_SEARCH_HIGH --tests SNAUniversitySearchFacetVerificationTest.testUniversitySearchCancelSinglePillAndVerify
+  670  ligradle uiTest -D uitf.groupsToInclude=SNATestGroupNameConstants.EDU_SEARCH_HIGH --tests SNAUniversitySearchFacetVerificationTest.testUniversitySearchCancelSinglePillAndVerify
+  671  ligradle uiTest -D uitf.groupsToInclude=FEDERATED_JOB_SEARCH --tests SNAVoltronFederatedJobTest.testFacetLiteOnFederatedPage
+  672  ligradle uiTest -D uitf.groupsToInclude=FEDERATED_JOB_SEARCH --tests com.linkedin.voltron.ui.test.federatedsearch.SNAVoltronFederatedJobTest.testFacetLiteOnFederatedPage
+  673  ligradle uiTest -D uitf.groupsToInclude=EDU_SEARCH_HIGH --tests com.linkedin.voltron.ui.test.edusearch.SNAUniversitySearchFacetVerificationTest.testUniversitySearchCancelSinglePillAndVerify
+  674  ligradle uiTest -D uitf.groupsToInclude=EDU_SEARCH_HIGH --tests com.linkedin.voltron.ui.test.edusearch.SNAUniversitySearchBasicTest.testUniversitySearchPrimarySecondaryActions
+  675  ligradle uiTest -D uitf.groupsToInclude=EDU_SEARCH --tests com.linkedin.voltron.ui.test.edusearch.SNAUniversitySearchBasicTest.testUniversitySearchPrimarySecondaryActions
+  676  ligradle uiTest -D uitf.groupsToInclude=GROUP_SEARCH --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination 
+  677  cd workspace/trunk/voltron/ui-test/
+  678  ligradle uiTest -D uitf.groupsToInclude=GROUP_SEARCH --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination 
+  679  ligradle uiTest -D uitf.groupsToInclude=GROUP_SEARCH --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination -Duitf.fabric=EI2
+  680  ligradle uiTest -D uitf.groupsToInclude=GROUP_SEARCH --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination -Duitf.fabric=EI1
+  681  ligradle uiTest -D uitf.groupsToInclude=GROUP_SEARCH --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination
+  682  ligradle uiTest -D uitf.groupsToInclude=GROUP_SEARCH --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchSpellCheckVerificationTest.testspellCheckLowConfidenceInGroupSRP
+  683  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testVoltronBasicPeopleSavedSearchesTest
+  684  ligradle idea
+  685  ligradle clean
+  686  cd
+  687  ls
+  688  cd workspace/
+  689  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  690  ligradle clean
+  691  cd trunk/
+  692  ligradle clean
+  693  ligradle idea
+  694  cd voltron/ui-test/
+  695  ligradle clean
+  696  ligradle build
+  697  cd workspace/trunk/voltron/ui-test/
+  698  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testVoltronBasicPeopleSavedSearchesTest
+  699  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronFederatedBasicTest.mandatoryBeforeTestMethod
+  700  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronFederatedBasicTest.testFederatedSearchTransnav
+  701  cd workspace/trunk/voltron/ui-test/
+  702  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronFederatedBasicTest.testFederatedSearchTransnav
+  703  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.federatedsearch.SNAVoltronFederatedBasicTest.testFederatedSearchTransnav
+  704  ligradle uiTest -D uitf.groupsToInclude=FEDERATED_PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.federatedsearch.SNAVoltronFederatedBasicTest.testFederatedSearchTransnav
+  705  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchBasicUITest.testPeopleSearchFacetTypeahead
+  706  ligradle uiTest -D uitf.groupsToInclude=GROUP_SEARCH --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchPagination
+  707  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobAdvanceSearchTests.testAdvancedSearchFacetTest
+  708  cd workspace/trunk/voltron/ui-test/
+  709  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobAdvanceSearchTests.testAdvancedSearchFacetTest
+  710  cd workspace/trunk/voltron/ui-test/
+  711  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobAdvanceSearchTests.testAdvancedSearchFacetTest
+  712  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobAdvanceSearchTests.testJobAdvanceSearchVerifyAllFilters
+  713  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobAdvanceSearchTests.testJobAdvSearchSwitchingToPeople
+  714  svn st
+  715  cd 
+  716  cd workspace/
+  717  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  718  cd trunk/voltron/ui-test/
+  719  svn st
+  720  svin review
+  721  cd java/com/linkedin/voltron/ui
+  722  svn st
+  723  cd 
+  724  cd workspace/
+  725  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  726  cd trunk/voltron/ui-test/
+  727  cd java/com/linkedin/voltron/ui
+  728  ls
+  729  svn st
+  730  svin review
+  731  svn ci -m "BW=None:RB=639895:change_clickAndWait_2_click" helpers/SNAVoltronPeopleSearchHelper.java test/companysearch/SNAVoltronCompanySeachBasicTest.java test/edusearch/SNAUniversitySearchFacetVerificationTest.java test/federatedsearch/SNAVoltronFederatedJobTest.java test/groupsearch/SNAVoltronGroupSearchBasicTest.java test/jobsearch/SNAVoltronJobAdvanceSearchTests.java test/peoplesearch/SNAVoltronAdvancedPeopleSearchTests.java
+  732  cd workspace/trunk/voltron/ui-test/
+  733  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobAdvanceSearchTests.testAdvancedSearchFacetTest
+  734  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobAdvanceSearchTests.testJobAdvanceSearchVerifyAllFilters
+  735  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobAdvanceSearchTests.testJobAdvSearchSwitchingToPeople
+  736  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobAdvanceSearchTests.testJobSearchAdvSearchResetAndClose
+  737  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobAdvanceSearchTests.testAdvancedSearchFacetTest
+  738  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobAdvanceSearchTests.testJobAdvanceSearchVerifyAllFilters
+  739  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobAdvanceSearchTests.testJobAdvSearchSwitchingToPeople
+  740  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobAdvanceSearchTests.testJobSearchAdvSearchResetAndClose
+  741  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSavedSearchAlertEmail.testJobSavedSearchAlertEmailBasic
+  742  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSavedSearchAlertEmail.testJobSavedSearchAlertEmailNotSignedInUser
+  743  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSavedSearchTests.testJobSavedSearchAddEditCancelDelete
+  744  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSavedSearchTests.testJobSavedSearchDeltatestJobSavedSearchAlertsVerification
+  745  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSavedSearchTests.testJobSavedSearchAlertsVerification
+  746  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchFacetLiteTests.testFacetLitePagination
+  747  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchFacetLiteTests.testFacetLiteSortByAndSavedSearch
+  748  cd workspace/trunk/voltron/ui-test/
+  749  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchFacetLiteTests
+  750  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchFacetTests
+  751  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchFacetTests.testJobSearchStickyFacetBasicTest
+  752  cd workspace/trunk/voltron/ui-test/
+  753  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchPivotBarTests.testSimilarJobsNavigationAfterFacetSelection
+  754  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH_HIGH
+  755  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronAdvancedPeopleSearchTests
+  756  cd workspace/trunk/voltron/ui-test/
+  757  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronAdvancedPeopleSearchTests
+  758  cd workspace/trunk/voltron/ui-test/
+  759  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronAdvancedPeopleSearchTests.testAdvancedPeopleSearchFacetSelection
+  760  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronAdvancedPeopleSearchTests.testAdvancedPeopleSearchVerifyAllFilters
+  761  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronAdvancedPeopleSearchTests.testAdvancedPeopleSearchFacetValuePersist
+  762  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronAdvancedPeopleSearchTests.testAdvPeopleSearchResetAndClose
+  763  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronAdvancedPeopleSearchTests.testAdvancedPeopleSearchFacetSelection
+  764  pwd
+  765  pwd
+  766  cp "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests" "/home/bafeng/Desktop/reports/job_high"
+  767  cp -help
+  768  cp ?
+  769  cp --help
+  770  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests" "/home/bafeng/Desktop/reports/job_high"
+  771  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/job_high"
+  772  cd workspace/trunk/voltron/ui-test/
+  773  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronAdvancedPeopleSearchTests
+  774  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronAdvancedPeopleSearchTests.testAdvPeopleSearchUpsellModalVerificationThroughDiabledFacetValues
+  775  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronAdvancedPeopleSearchTests.testAdvancedPeopleSearcModuleTest
+  776  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronAdvancedPeopleSearchTests.testAdvPeopleSearchUpsellModalVerificationThroughDiabledFacetValues
+  777  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch
+  778  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH
+  779  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/people_high"
+  780  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH_HIGH
+  781  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/job_high"
+  782  pwdligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH
+  783  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/people_high01"
+  784  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH_HIGH
+  785  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/job_high01"
+  786  pwd
+  787  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH
+  788  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/people_high02"
+  789  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH_HIGH
+  790  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/job_high02"
+  791  pwd
+  792  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH
+  793  cd workspace/trunk/voltron/ui-test/
+  794  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch
+  795  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testPeopleSavedSearchNoSavedSearches
+  796  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testPeopleSavedSearchSpecialCharacters
+  797  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testSavedSeachMaximumLimitForBasicUser
+  798  cd workspace/trunk/voltron/ui-test/
+  799  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testSavedSeachMaximumLimitForBasicUser
+  800  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testSavedSearchDeltaPageBasicAndPagination
+  801  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testSavedSearchMaximumLimitForBussinessPlusUser
+  802  cd workspace/trunk/voltron/ui-test/
+  803  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testSavedSearchMaximumLimitForBussinessPlusUser
+  804  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch
+  805  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testVoltronPeopleSavedSearchCloseAndLongNameVerification
+  806  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testVoltronSavedSearchAlert
+  807  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testVoltronPeopleSavedSearchCloseAndLongNameVerification
+  808  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testVoltronSavedSearchAlert
+  809  cd workspace/trunk/voltron/ui-test/
+  810  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testVoltronSavedSearchAlert
+  811  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testVoltronBasicPeopleSavedSearchesTest
+  812  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testSavedSearchWithMultipleFacetFilters
+  813  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testSavedSearchMaximumLimitForExecutiveUser
+  814  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testSavedSearchMaximumLimitForBussinessUser
+  815  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/people_testSavedSearchMaximumLimitForBussinessUser01"
+  816  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testSavedSearchMaximumLimitForBussinessUser
+  817  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/people_testSavedSearchMaximumLimitForBussinessUser02"
+  818  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testSavedSearchMaximumLimitForBussinessUser
+  819  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/people_testSavedSearchMaximumLimitForBussinessUser03"
+  820  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testSavedSearchMaximumLimitForBussinessUser
+  821  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/people_testSavedSearchMaximumLimitForBussinessUser04"
+  822  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH
+  823  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testSavedSearchMaximumLimitForBussinessPlusUser
+  824  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/people_testSavedSearchMaximumLimitForBussinessPlusUser005"
+  825  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testSavedSearchMaximumLimitForBussinessUser
+  826  cd workspace/trunk/voltron/ui-test/
+  827  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testSavedSearchMaximumLimitForBussinessPlusUser
+  828  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/people_testSavedSearchMaximumLimitForBussinessPlusUser005"
+  829  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testSavedSearchMaximumLimitForBussinessUser
+  830  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/people_hightestSavedSearchMaximumLimitForBussinessUser005"
+  831  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearchEmailAlertTest.testNoNewResultsForSavedSearches
+  832  pwd
+  833  ls
+  834  for j in `cat ./testcases`;  do echo $j;  done
+  835  for j in `cat ./testcases`;  do echo $j;  done
+  836  for j in `cat ./testcases`;  do echo $j;  done
+  837  do
+  838  echo ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.$j
+  839  echo cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/$j"
+  840  done
+  841  for j in `cat ./testcases`;  do echo ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.$j; echo cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/$j";  done
+  842  for j in `cat ./testcases`;  do ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.$j; cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/$j";  done
+  843  cd workspace/trunk/voltron/ui-test/
+  844  for j in `cat /home/bafeng/Desktop/Scripts/testcases`;  do ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.$j; cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/$j";  done
+  845  cd workspace/trunk/voltron/ui-test/
+  846  cd ..
+  847  cd ~
+  848  cd ~/workspace/trunk/voltron/ui-test/
+  849  for j in `cat /home/bafeng/Desktop/Scripts/testcases`;  do ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.$j; cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/$j";  done
+  850  cd ~/workspace/trunk/voltron/ui-test/
+  851  for j in `cat /home/bafeng/Desktop/Scripts/people`; do echo ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.$j; echo cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/$j";  done
+  852  for j in `cat /home/bafeng/Desktop/Scripts/people`; do echo ligradle uiTest -D uitf.groupsToInclude=job_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.$j; cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/$j";  done
+  853  clear
+  854  cd ~/workspace/trunk/voltron/ui-test/
+  855  for j in `cat /home/bafeng/Desktop/Scripts/people`; do ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.$j; cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/$j";  done
+  856  cd ~/workspace/trunk/voltron/ui-test/
+  857  for j in `cat /home/bafeng/Desktop/Scripts/people`; do ligradle uiTest -D uitf.groupsToInclude=job_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.$j; cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/$j";  done
+  858  cd workspace/trunk/voltron/ui-test/
+  859  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH_HIGH
+  860  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/job_high01"
+  861  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH
+  862  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/people_high01"
+  863  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testSavedSeachMaximumLimitForBasicUser
+  864  cd workspace/trunk/voltron/ui-test/
+  865  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testSavedSeachMaximumLimitForBasicUser
+  866  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testSavedSearchMaximumLimitForBussinessPlusUser
+  867  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testSavedSeachMaximumLimitForBasicUser
+  868  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testSavedSearchDeltaPageBasicAndPagination
+  869  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchFacetLiteTests
+  870  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/SNAVoltronPeopleSearchFacetLiteTests"
+  871  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchFacetsTest
+  872  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/SNAVoltronPeopleSearchFacetsTest"
+  873  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearchEmailAlertTest
+  874  cd workspace/trunk/voltron/ui-test/
+  875  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearchEmailAlertTest
+  876  cd workspace/trunk/voltron/ui-test/
+  877  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchFacetLiteTests.testVoltronPeopleSearchFacetLiteForDynamicFacets
+  878  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchFacetsTest.testVerifyPeopleSearchFacetPillWithFacetLabel
+  879  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchFacetLiteTests.testVoltronPeopleSearchFacetLiteForDynamicFacets
+  880  cd workspace/trunk/voltron/ui-test/
+  881  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchFacetsTest.testVerifyPeopleSearchFacetPillWithFacetLabel
+  882  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchMaxResultsForBasicAndBusinessUserTest
+  883  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyConnectButtonvisibilityForOonUserPage1LixTest
+  884  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyConnectButtonvisibilityForOonUserPage1LixTestb -Duitf.fabric=EI1
+  885  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyConnectButtonvisibilityForOonUserPage1LixTest -Duitf.fabric=EI1
+  886  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyFacetDetailsTest 
+  887  cd workspace/trunk/voltron/ui-test/
+  888  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyFacetDetailsTest
+  889  ligradle uiTest -D uitf.groupsToInclude=COMPANY_SEARCH --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanyTitleAndLogoVerification
+  890  cd workspace/trunk/voltron/ui-test/
+  891  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronAdvancedPeopleSearchTests.testAdvancedPeopleSearchFacetSelection
+  892  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyFedPrimaryPeopleSearchVsPeopleSrpTest
+  893  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyFedPrimaryPeopleSearchVsPeopleSrpTest.testVerifyPeopleSearchCocLink com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyFedPrimaryPeopleSearchVsPeopleSrpTest.testVerifyPeopleSearchEscapeHatchFeature
+  894  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyFedPrimaryPeopleSearchVsPeopleSrpTest.testVerifyPeopleSearchCocLink
+  895  svn update en_US.properties
+  896  cd workspace/trunk/voltron/ui-test/
+  897  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyFedPrimaryPeopleSearchVsPeopleSrpTest
+  898  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyFedPrimaryPeopleSearchVsPeopleSrpTest.testVerifyPeopleSearchNoResultCopyChanges
+  899  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyFirstDegreeEntitlementLimitTest
+  900  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyFromFederatedSearchTest
+  901  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyInfluencerResultForNewUserAndOneClickInviteActionTest
+  902  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyNoResultInviteTest
+  903  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/SNAVoltronPeopleSearchVerifyNoResultInviteTest.testVerifyNoResults"
+  904  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyOneClickInviteRestrictionTest
+  905  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyPrimaryActionsForOONNonSubscriberInmailDisabledTest
+  906  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyPrimaryActionsForOONNonSubscriberInmailDisabledTest.testVerifyPrimaryActionsForOONNonSubscriberInmailDisabledConnectPrimaryAction
+  907  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSavedSearch.testSavedSeachMaximumLimitForBasicUser
+  908  svn st
+  909  svin review
+  910  cd workspace/trunk/voltron/ui-test/
+  911  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH_HIGH
+  912  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/job_high02"
+  913  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH
+  914  cd workspace/trunk/voltron/ui-test/
+  915  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifyPrimaryActionsForOONNonSubscriberInmailDisabledTest
+  916  cd workspace/trunk/voltron/ui-test/
+  917  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH
+  918  cd workspace/trunk/voltron/ui-test/
+  919  --ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobAdvanceSearchTests.testJobAdvanceSearchVerifyAllFilters
+  920  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobAdvanceSearchTests.testJobAdvanceSearchVerifyAllFilters
+  921  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobAdvanceSearchTests.testJobSearchAdvSearchResetAndClose
+  922  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSavedSearchTests.testJobSavedSearchAddEditCancelDelete
+  923  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH
+  924  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/people_high04"
+  925  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH_HIGH
+  926  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/job_high04"
+  927  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH
+  928  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/people_high04"
+  929  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH_HIGH
+  930  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/job_high04"
+  931  pwd
+  932  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH
+  933  cd workspace/trunk/voltron/ui-test/
+  934  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH_HIGH
+  935  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSavedSearchTests.testJobSavedSearchAddEditCancelDelete
+  936  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSavedSearchTests.testJobSavedSearchAlertsVerification
+  937  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchFacetLiteTests.testFacetLiteSortByAndSavedSearch
+  938  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchFacetLiteTests.testVoltronFacetLiteForStaticFacets
+  939  cd workspace/trunk/voltron/ui-test/
+  940  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchFacetTests.testJobSearchStickyFacetsFromTypeahead
+  941  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchFacetTests
+  942  cd workspace/trunk/voltron/ui-test/
+  943  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH_HIGH
+  944  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/job_high02"
+  945  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH
+  946  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/people_high02"
+  947  pwd
+  948  cd workspace/trunk/voltron/ui-test/
+  949  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchFacetTests.testJobSearchSalaryFacetNonSubscriber -Duitf.fabric=EI1
+  950  cd workspace/trunk/voltron/ui-test/
+  951  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH -Duitf.fabric=EI1 --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchFacetTests 
+  952  svn update en_US.properties
+  953  svn diff en_US.properties >a.diff
+  954  svn update en_US.properties
+  955  svn diff en_US.properties >a.diff
+  956  svn update en_US.properties
+  957  svn diff en_US.properties >a.diff
+  958  cd workspace/trunk/voltron/ui-test/
+  959  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchFacetTests
+  960  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobAdvanceSearchTests.testAdvancedSearchFacetTest
+  961  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchPivotBarTests
+  962  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchPivotBarTests.testSimilarJobResetPillSuperPillAndLogo
+  963  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchResultsTests
+  964  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchResultsTests.testJobSearchNoResultsPageVerification
+  965  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchResultsTests.testJobSearchPagination
+  966  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchResultsTests.testSortByOptionPersistence
+  967  cd ~/workspace/trunk/voltron/ui-test/
+  968  for j in `cat /home/bafeng/Desktop/Scripts/peopleclass`; do ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.$j; cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/$j";  done
+  969  cd ~/workspace/trunk/voltron/ui-test/
+  970  for j in `cat /home/bafeng/Desktop/Scripts/jobclass`; do ligradle uiTest -D uitf.groupsToInclude=job_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.$j; cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/$j";  done
+  971  cd ~/workspace/trunk/voltron/ui-test/
+  972  for j in `cat /home/bafeng/Desktop/Scripts/peopleclass`; do ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.$j; cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/$j";  done
+  973  cd ~/workspace/trunk/voltron/ui-test/
+  974  for j in `cat /home/bafeng/Desktop/Scripts/jobclass`; do ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.$j; cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/$j";  done
+  975  cd ~/workspace/trunk/voltron/ui-test/
+  976  for j in `cat /home/bafeng/Desktop/Scripts/jobclass`; do ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.$j; cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/$j";  done
+  977  pwd
+  978  curli --fabric EI3 --pretty-print --request GET "d2://search?baseSearchParams.searchTrackingInfo.pageKey=voltron_people_search_json_internal&baseSearchParams.searchTrackingInfo.searchId=peoplesearch_test&searchContext.doRelatedSearches=true&peopleSearchParams.peopleSearchFacetSpecs%5B0%5D.spec.maximumNumberOfValues=10&baseSearchParams.searchTrackingInfo.searchType=vsrp_ppl&peopleSearchParams.facetNetwork%5B0%5D=F&searchContext.interfaceLocale=en_US&searchContext.doFacetSuggestion=true&peopleSearchContext.maxResults=1&searchContext.doSpellCheck=true&q=peopleV2&searchContext.doHighlighting=true&peopleSearchParams.facetNetwork%5B2%5D=A&peopleSearchParams.facetNetwork%5B1%5D=S&baseSearchParams.viewerId=62173&searchContext.doFacetDecoration=true&baseSearchParams.keywords&peopleSearchParams.peopleSearchFacetSpecs%5B0%5D.spec.minimumCount=0&searchContext.doHitDecoration=true&peopleSearchParams.peopleSearchFacetSpecs%5B0%5D.facet=CURRENT_FUNCTION&search-peoplev2-use_galene_override=enabled”
+  979  cd workspace/trunk/voltron/ui-test/
+  980  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH_HIGH
+  981  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/job_high02"
+  982  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH
+  983  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/people_high02"
+  984  pwd
+  985  cd ~/workspace/trunk/voltron/ui-test/
+  986  for j in `cat /home/bafeng/Desktop/Scripts/jobclass`; do ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.$j; cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/$j";  done
+  987  cd ~/workspace/trunk/voltron/ui-test/
+  988  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobAdvanceSearchTests
+  989  cd ~/workspace/trunk/voltron/ui-test/
+  990  for j in `cat /home/bafeng/Desktop/Scripts/jobtests`; do ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH -Duitf.fabric=EI1 --tests com.linkedin.voltron.ui.test.jobsearch.$j; cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/$j"; rm -f "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/index.html";  done
+  991  cd ~/workspace/trunk/voltron/ui-test/
+  992  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH --tests com.linkedin.voltron.ui.test.jobsearch.SNAVoltronJobSearchFacetTests.testJobSearchSalaryFacetNonSubscriber
+  993  cd workspace/trunk/voltron/ui-test/
+  994  ligradle uiTest -D uitf.groupsToInclude=JOB_SEARCH_HIGH
+  995  cp -r "/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests/" "/home/bafeng/Desktop/reports/job_high03"
+  996  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH
+  997  cd workspace/
+  998  ls
+  999  cd
+ 1000  ls
+ 1001  history >>commandhistory01.txt 
