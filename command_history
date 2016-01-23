@@ -1,0 +1,1500 @@
+    5  l
+    6  ls -l
+    7  last
+    8  defaults write com.apple.finder AppleShowAllFiles YES
+    9  defaults write com.apple.finder AppleShowAllFiles NO
+   10  ls
+   11  cd workspace
+   12  cd voltron
+   13  ls
+   14  cd trunk
+   15  ls
+   16  cd voltron
+   17  ls
+   18  cd ui-test
+   19  ls
+   20  cd java
+   21  ls
+   22  cd com
+   23  ls
+   24  cd linkedin
+   25  ls
+   26  cd voltron
+   27  ls
+   28  cd ui
+   29  cd ..
+   30  ls
+   31  cd ..
+   32  ls
+   33  cd ..
+   34  cd linkedin
+   35  cd security
+   36  cd security
+   37  ls
+   38  ls
+   39  cd voltron
+   40  ls
+   41  cd ui
+   42  ls
+   43  cd helpers
+   44  ls
+   45  ls
+   46  pwd
+   47  cd ..
+   48  cd ..
+   49  cd ..
+   50  cd ..
+   51  cd ..
+   52  cd ..
+   53  cd ..
+   54  pwk
+   55  pwd
+   56  ls
+   57  cd ui-tet
+   58  cd ui-test
+   59  ls
+   60  cd java
+   61  ls
+   62  cd com
+   63  ls
+   64  cd linkedin
+   65  ls
+   66  cd voltron
+   67  ls
+   68  cd ui
+   69  ls
+   70  cd test
+   71  ls
+   72  cd groupsearch/
+   73  ls
+   74  pwd
+   75  ls
+   76  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+   77  cd ..
+   78  cd ..
+   79  cd ..
+   80  cd ..
+   81  cd ..
+   82  cd ..
+   83  cd ..
+   84  cd ..
+   85  cd ..
+   86  ls
+   87  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+   88  cd voltron/
+   89  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+   90  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+   91  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+   92  cd workspace/
+   93  cd trunk/voltron/
+   94  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+   95  exit
+   96  echo $path
+   97  echo %path
+   98  echo $path
+   99  ls
+  100  cd workspace/
+  101  ls
+  102  cd trunk
+  103  echo $path
+  104  echo $path
+  105  /Users/bafeng/workspace/trunk/ide-bootstrap ; exit;
+  106  ls
+  107  cd workspace/trunk/
+  108  ls
+  109  cd voltron
+  110  ls
+  111  cd ui-test/
+  112  igradle -D uiTest uitf.groupsToInclude=GROUP_SEARCH_SANITY --info
+  113  ligradle -D uiTest uitf.groupsToInclude=GROUP_SEARCH_SANITY --info
+  114  cd ..
+  115  ligradle -D uiTest uitf.groupsToInclude=GROUP_SEARCH_SANITY --info
+  116  cd ui-test/
+  117  ligradle -D uiTest uitf.groupsToInclude=GROUP_SEARCH_SANITY --info
+  118  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+  119  cd ..
+  120  cd ..
+  121  ls
+  122  cd voltron/
+  123  ./ide-bootstrap --idea
+  124  cd ..
+  125  ./ide-bootstrap --idea
+  126  ./ide-bootstrap --ide idea
+  127  ligradle idea
+  128  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testgroupTitleAndLogoVerification
+  129  history
+  130  svn /?
+  131  svn ?
+  132  clear
+  133  svn ?
+  134  svn ?
+  135  history
+  136  ssh ?
+  137  ssh -?
+  138  ligradle -?
+  139  cla
+  140  cls
+  141  cal
+  142  case
+  143  cat
+  144  date
+  145  dc
+  146  df
+  147  dir
+  148  ls
+  149  svn
+  150  svn help
+  151  jira
+  152  $PATH
+  153  ligradle help
+  154  gradle --help
+  155  gradle --help
+  156  sh /Users/bafeng/tomcat/bin/startup.sh 
+  157  ls
+  158  cd tomcat/
+  159  cd bin/
+  160  pwd
+  161   ./startup.sh 
+  162  ls
+  163  cd workspace/trunk/voltron/
+  164  cd ..
+  165  ls
+  166  pwd
+  167  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  168  history
+  169  ant
+  170  ant /?
+  171  ant tet
+  172  ant test
+  173  brew
+  174  brew /?
+  175  pwd
+  176  curl
+  177  curl https://raw.github.com/n8han/conscript/master/setup.sh | sh
+  178  cs n8han/giter8
+  179  clear
+  180  xcode-select -install
+  181  xcode-select --install
+  182  ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
+  183  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  184  brew help
+  185  brew install giter8
+  186  dir
+  187  ls
+  188  ls
+  189  brew install giter8
+  190  sudo chown -R $USER /usr/local
+  191  brew install giter8
+  192  g8 linkedin/rest.li-skeleton
+  193  g8
+  194  g8
+  195  brew install name
+  196  curl https://raw.github.com/n8han/conscript/master/setup.sh | sh
+  197  cs n8han/giter8
+  198  brew giter8
+  199  brew install giter8
+  200  g8
+  201  /Users/bafeng/.ivy2/local/net.databinder.giter8/giter8_2.10/0.6.9/ivys/ivy.xml
+  202  cd ..
+  203  cd ..
+  204  ls
+  205  cd Users/bafeng/
+  206  ls
+  207  cd /.ivy2
+  208  ls
+  209  cd /Users/bafeng/.ivy2
+  210  ls
+  211  pwd
+  212  cd local
+  213  cd /Users/bafeng/.ivy2/local/net.databinder.giter8/
+  214  cd /Users/bafeng/.ivy2/local/
+  215  cd /Users/bafeng/.ivy2/
+  216  ls
+  217  pwd
+  218  cd ..
+  219  ls
+  220  brew uninstall giter8
+  221  xcode
+  222  git
+  223  ls
+  224  cd tomcat/
+  225  ls
+  226  cd bin
+  227  cd ..
+  228  ls
+  229  cd webapps/
+  230  ls
+  231  cd ..
+  232  ls
+  233  cd ..
+  234  ls
+  235  cd tomcat/bin/
+  236  ls
+  237  ./startup.sh 
+  238  cd net
+  239  cd lngit
+  240  pwd
+  241  git /?
+  242  git init
+  243  ls -ah
+  244  git add readme.ext
+  245  git add readme.txt
+  246  git commit -m "write a readme file"
+  247  git config --global --edit
+  248  git
+  249  git
+  250  git config --global user.name "Mike Feng"
+  251  git config --global user.email "mike.feng.ca@gmail.com"
+  252  ls
+  253  cd tomcat/
+  254  ls
+  255  cd webapps/
+  256  cd jenkins
+  257  ls
+  258  cd bin
+  259  ls
+  260  clear
+  261  ls
+  262  pwd
+  263  cd ..
+  264  pwd
+  265  cd ..
+  266  pwd
+  267  cd bin
+  268  ls
+  269  ./startup.sh 
+  270  ls
+  271  cd tomcat/
+  272  ls
+  273  cd bin
+  274  ls
+  275  pwd
+  276  /Users/bafeng/Documents/tomcat.command ; exit;
+  277  /Users/bafeng/Documents/tomcat.command ; exit;
+  278  cd /Applications/Utilities/
+  279  chmod u+x /Users/bafeng/Documents/tomcat.command 
+  280  g8
+  281  brew
+  282  brew install giter8
+  283  g8
+  284  brew uninstall giter8
+  285  g8
+  286  /Users/bafeng/main ; exit;
+  287  g++
+  288  g++ /?
+  289  ls
+  290  g++ "main.cpp" -o "main"
+  291  main
+  292  ./main
+  293  main
+  294  mint
+  295  ls
+  296  cd workspace/
+  297  ls
+  298  mint checkout uitf-java-workshop
+  299  cd uitf-java-workshop_trunk/
+  300  mkdir workshop_edlee
+  301  cd workspace/uitf-java-workshop_trunk/
+  302  mkdir config/test/workshop_edlee
+  303  mkdir config/test/workshop_edlee/app-defs
+  304  mkdir config/test/workshop_edlee/EI2
+  305  mkdir -p workshop_edlee/src/uiTest/java
+  306  mkdir workshop_edlee/src/uiTest/resources
+  307  cd workshop_edlee/
+  308  ligradle build
+  309  ligradle idea
+  310  sudo sh /var/client/enrollcheck.sh
+  311  sudo jamf policy -trigger every15
+  312  id juwu
+  313  sudo jamf policy -trigger everyhr
+  314  sudo jamf manage
+  315  sudo jamf policy -trigger everyhr
+  316  sudo jamf -removeFramework
+  317  sudo jamf -removeFramework
+  318  sudo sh /var/client/enrollcheck.sh
+  319  sudo rm /Library/Application\ Support/JAMF/Downloads/*intellij*
+  320  sudo rm /Library/Application\ Support/JAMF/Receipts/*intellij*
+  321  sudo rm /Library/Application\ Support/JAMF/Downloads/*Intellij*
+  322  sudo rm /Library/Application\ Support/JAMF/Receipts/*Intellij*
+  323  sudo rm /Library/Application\ Support/JAMF/Waiting\ Room/*Intellij*
+  324  sudo jamf policy -trigger intellij
+  325  jamf version
+  326  dir
+  327  ls
+  328  cd wor
+  329  cd workspace/
+  330  ls
+  331  cd trunk
+  332  ls
+  333  cd voltron
+  334  ls
+  335  cd ui-test
+  336  ls
+  337  ligradle build
+  338  history
+  339  cd ..
+  340  cd ..
+  341  cd ..
+  342  pwd
+  343  ls
+  344  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  345  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  346  ligradle build
+  347  ls
+  348  cd trunk/voltron/ui-test/
+  349  ls
+  350  ligradle build
+  351  cd ../
+  352  cd 
+  353  ssh eat1-tools177
+  354  ls
+  355  cd workspace/
+  356  $ mint checkout uitf-java-workshop
+  357  mint checkout uitf-java-workshop
+  358  ls
+  359  cd uitf-java-workshop_trunk/
+  360  mkdir workshop_edlee
+  361  ls
+  362  cd workshop_edlee/
+  363  ligradle build
+  364  ligradle idea
+  365  ls
+  366  cd workspace/
+  367  ls
+  368  cd trunk/voltron/ui-test/
+  369  ligradle build
+  370  ligradle idea
+  371  svn help
+  372  history
+  373  cd workspace/
+  374  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  375  cd trunk/voltron/ui-test/
+  376  ligradle build
+  377  ligradle idea
+  378  cd ..
+  379  cd ..
+  380  ligradle build
+  381  cd ..
+  382  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  383  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  384  cd trunk/
+  385  ligradle build
+  386  ligradle idea
+  387  cd workspace/trunk/voltron/ui-test/
+  388  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  389  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  390  /Applications/Firefox38.app/Contents/MacOS/firefox ; exit;
+  391  cd workspace/trunk/voltron/
+  392  cd ui-test/
+  393  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  394  $PATH
+  395  firefox
+  396  /Applications/Firefox38.app/Contents/MacOS/firefox
+  397  /Applications/Firefox38.app/Contents/MacOS/firefox
+  398  PATH=$PATH:/Applications/Firefox38.app/Contents/MacOS/firefox
+  399  $PATH
+  400  firefox
+  401  PATH=$PATH:/Applications/Firefox38.app/Contents/MacOS/
+  402  firefox
+  403  cd workspace/
+  404  cd trunk/voltron/ui-test/
+  405  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  406  $PATH
+  407  /Applications/Firefox.app/Contents/MacOS/FIREFOX
+  408  /Applications/Firefox.app/Contents/MacOS/FIREFOX
+  409  /Applications/Firefox.app/Contents/MacOS/FIREFOX
+  410  PATH=$PATH:/Applications/Firefox.app/Contents/MacOS/
+  411  cd workspace/trunk/voltron/ui-test/
+  412  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  413  ligradle -D uitf.groupsToInclude=GROUP_SEARCH
+  414  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch. SNAVoltronGroupSearchBasicTest.testGroupSearchInCommonConnections
+  415  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  416  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  417  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  418  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchInCommonConnections
+  419  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  420  cd ..
+  421  cd ..
+  422  cd ..
+  423  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  424  ligradle build
+  425  cd trunck
+  426  ligradle idea
+  427  cd trunk/
+  428  cd voltron/ui-test/
+  429  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  430  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH_008
+  431  ligradle -D uitf.groupsToInclude=GROUP_SEARCH_SANITY uiTest
+  432  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH_01 uiTest
+  433  ligradle -Duitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  434  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  435  cd ..
+  436  ls
+  437  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  438  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH  --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  439  cd ui-test/
+  440  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH  --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  441  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH  --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  442  cd ..
+  443  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH  --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  444  cd ui-test/
+  445  ls
+  446  vi hs_err_pid2854.log
+  447  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  448  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  449  cd ..
+  450  cd ..
+  451  cd ..
+  452  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  453  cd trunk/voltron
+  454  cd ui-test/
+  455  ligradle build
+  456  ligradle idea
+  457  cd workspace/
+  458  cd trunk/voltron/
+  459  svn status
+  460  svn diff ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  461  svn diff ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java > patch.diff
+  462  svn st
+  463  svin review
+  464  /Applications/IntelliJ\ IDEA\ 14.app/Contents/MacOS/idea ; exit;
+  465  cd workspace/
+  466  cd trunk/voltron/
+  467  cd ui-test/
+  468  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  469  ligradle clean
+  470  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH_XX
+  471  ligradle clean
+  472  ligradle idea
+  473  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH_XX -Duitf.fabric=EI2 --info
+  474  cd ..
+  475  cd ..
+  476  cd ..
+  477  svn up
+  478  svn up
+  479  cd trunck
+  480  cd trunk/
+  481  svn up
+  482  cd voltron/ui-test/
+  483  ligradle clean
+  484  ligradle idea
+  485  firefox
+  486  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  487  firefox
+  488  PATH=$PATH:/Applications/Firefox.app/Contents/MacOS/
+  489  firefox
+  490  cd 
+  491  cd /Applications/
+  492  ls
+  493  cd IntelliJ\ IDEA\ 14.app/
+  494  ls
+  495  cd Contents/
+  496  ls
+  497  cd MacOS/
+  498  firefox
+  499  idea
+  500  ./idea
+  501  history
+  502  ls
+  503  cd workspace
+  504  history >a.txt
+    4  pwd
+    5  cd ..
+    6  pwd
+    7  cd ..
+    8  pwd
+    9  cd bin
+   10  ls
+   11  ./startup.sh 
+   12  ls
+   13  cd tomcat/
+   14  ls
+   15  cd bin
+   16  ls
+   17  pwd
+   18  /Users/bafeng/Documents/tomcat.command ; exit;
+   19  /Users/bafeng/Documents/tomcat.command ; exit;
+   20  cd /Applications/Utilities/
+   21  chmod u+x /Users/bafeng/Documents/tomcat.command 
+   22  g8
+   23  brew
+   24  brew install giter8
+   25  g8
+   26  brew uninstall giter8
+   27  g8
+   28  /Users/bafeng/main ; exit;
+   29  g++
+   30  g++ /?
+   31  ls
+   32  g++ "main.cpp" -o "main"
+   33  main
+   34  ./main
+   35  main
+   36  mint
+   37  ls
+   38  cd workspace/
+   39  ls
+   40  mint checkout uitf-java-workshop
+   41  cd uitf-java-workshop_trunk/
+   42  mkdir workshop_edlee
+   43  cd workspace/uitf-java-workshop_trunk/
+   44  mkdir config/test/workshop_edlee
+   45  mkdir config/test/workshop_edlee/app-defs
+   46  mkdir config/test/workshop_edlee/EI2
+   47  mkdir -p workshop_edlee/src/uiTest/java
+   48  mkdir workshop_edlee/src/uiTest/resources
+   49  cd workshop_edlee/
+   50  ligradle build
+   51  ligradle idea
+   52  sudo sh /var/client/enrollcheck.sh
+   53  sudo jamf policy -trigger every15
+   54  id juwu
+   55  sudo jamf policy -trigger everyhr
+   56  sudo jamf manage
+   57  sudo jamf policy -trigger everyhr
+   58  sudo jamf -removeFramework
+   59  sudo jamf -removeFramework
+   60  sudo sh /var/client/enrollcheck.sh
+   61  sudo rm /Library/Application\ Support/JAMF/Downloads/*intellij*
+   62  sudo rm /Library/Application\ Support/JAMF/Receipts/*intellij*
+   63  sudo rm /Library/Application\ Support/JAMF/Downloads/*Intellij*
+   64  sudo rm /Library/Application\ Support/JAMF/Receipts/*Intellij*
+   65  sudo rm /Library/Application\ Support/JAMF/Waiting\ Room/*Intellij*
+   66  sudo jamf policy -trigger intellij
+   67  jamf version
+   68  dir
+   69  ls
+   70  cd wor
+   71  cd workspace/
+   72  ls
+   73  cd trunk
+   74  ls
+   75  cd voltron
+   76  ls
+   77  cd ui-test
+   78  ls
+   79  ligradle build
+   80  history
+   81  cd ..
+   82  cd ..
+   83  cd ..
+   84  pwd
+   85  ls
+   86  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+   87  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+   88  ligradle build
+   89  ls
+   90  cd trunk/voltron/ui-test/
+   91  ls
+   92  ligradle build
+   93  cd ../
+   94  cd 
+   95  ssh eat1-tools177
+   96  ls
+   97  cd workspace/
+   98  $ mint checkout uitf-java-workshop
+   99  mint checkout uitf-java-workshop
+  100  ls
+  101  cd uitf-java-workshop_trunk/
+  102  mkdir workshop_edlee
+  103  ls
+  104  cd workshop_edlee/
+  105  ligradle build
+  106  ligradle idea
+  107  ls
+  108  cd workspace/
+  109  ls
+  110  cd trunk/voltron/ui-test/
+  111  ligradle build
+  112  ligradle idea
+  113  svn help
+  114  history
+  115  cd workspace/
+  116  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  117  cd trunk/voltron/ui-test/
+  118  ligradle build
+  119  ligradle idea
+  120  cd ..
+  121  cd ..
+  122  ligradle build
+  123  cd ..
+  124  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  125  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  126  cd trunk/
+  127  ligradle build
+  128  ligradle idea
+  129  cd workspace/trunk/voltron/ui-test/
+  130  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  131  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  132  /Applications/Firefox38.app/Contents/MacOS/firefox ; exit;
+  133  cd workspace/trunk/voltron/
+  134  cd ui-test/
+  135  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  136  $PATH
+  137  firefox
+  138  /Applications/Firefox38.app/Contents/MacOS/firefox
+  139  /Applications/Firefox38.app/Contents/MacOS/firefox
+  140  PATH=$PATH:/Applications/Firefox38.app/Contents/MacOS/firefox
+  141  $PATH
+  142  firefox
+  143  PATH=$PATH:/Applications/Firefox38.app/Contents/MacOS/
+  144  firefox
+  145  cd workspace/
+  146  cd trunk/voltron/ui-test/
+  147  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  148  $PATH
+  149  /Applications/Firefox.app/Contents/MacOS/FIREFOX
+  150  /Applications/Firefox.app/Contents/MacOS/FIREFOX
+  151  /Applications/Firefox.app/Contents/MacOS/FIREFOX
+  152  PATH=$PATH:/Applications/Firefox.app/Contents/MacOS/
+  153  cd workspace/trunk/voltron/ui-test/
+  154  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  155  ligradle -D uitf.groupsToInclude=GROUP_SEARCH
+  156  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch. SNAVoltronGroupSearchBasicTest.testGroupSearchInCommonConnections
+  157  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  158  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  159  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  160  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchInCommonConnections
+  161  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  162  cd ..
+  163  cd ..
+  164  cd ..
+  165  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  166  ligradle build
+  167  cd trunck
+  168  ligradle idea
+  169  cd trunk/
+  170  cd voltron/ui-test/
+  171  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  172  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH_008
+  173  ligradle -D uitf.groupsToInclude=GROUP_SEARCH_SANITY uiTest
+  174  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH_01 uiTest
+  175  ligradle -Duitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  176  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  177  cd ..
+  178  ls
+  179  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  180  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH  --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  181  cd ui-test/
+  182  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH  --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  183  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH  --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  184  cd ..
+  185  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH  --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  186  cd ui-test/
+  187  ls
+  188  vi hs_err_pid2854.log
+  189  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  190  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  191  cd ..
+  192  cd ..
+  193  cd ..
+  194  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  195  cd trunk/voltron
+  196  cd ui-test/
+  197  ligradle build
+  198  ligradle idea
+  199  cd workspace/
+  200  cd trunk/voltron/
+  201  svn status
+  202  svn diff ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  203  svn diff ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java > patch.diff
+  204  svn st
+  205  svin review
+  206  /Applications/IntelliJ\ IDEA\ 14.app/Contents/MacOS/idea ; exit;
+  207  cd workspace/
+  208  cd trunk/voltron/
+  209  cd ui-test/
+  210  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  211  ligradle clean
+  212  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH_XX
+  213  ligradle clean
+  214  ligradle idea
+  215  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH_XX -Duitf.fabric=EI2 --info
+  216  cd ..
+  217  cd ..
+  218  cd ..
+  219  svn up
+  220  svn up
+  221  cd trunck
+  222  cd trunk/
+  223  svn up
+  224  cd voltron/ui-test/
+  225  ligradle clean
+  226  ligradle idea
+  227  firefox
+  228  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  229  firefox
+  230  PATH=$PATH:/Applications/Firefox.app/Contents/MacOS/
+  231  firefox
+  232  cd 
+  233  cd /Applications/
+  234  ls
+  235  cd IntelliJ\ IDEA\ 14.app/
+  236  ls
+  237  cd Contents/
+  238  ls
+  239  cd MacOS/
+  240  firefox
+  241  idea
+  242  ./idea
+  243  cd workspace/trunk/voltron/ui-test/
+  244  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  245  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  246  PATH=$PATH:/Applications/Firefox.app
+  247  firefox
+  248  $PATH
+  249  /Applications/IntelliJ IDEA 14.app/Contents/MacOS/idea
+  250  /Applications/IntelliJ\ IDEA\ 14.app/Contents/MacOS/idea 
+  251  /Applications/IntelliJ\ IDEA\ 14.app/Contents/MacOS/idea 
+  252  /Applications/IntelliJ\ IDEA\ 14.app/Contents/MacOS/idea 
+  253  cd ~
+  254  ls
+  255  ~/.bash_profile
+  256  cat ~/.bash_profile
+  257  /Applications/IntelliJ\ IDEA\ 14.app/Contents/MacOS/idea 
+  258  history
+  259  ls
+  260  cd workspace
+  261  history >a.txt
+  262  ls
+  263  cd /Users/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/test
+  264  ls
+  265  cd peoplesearch/
+  266  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/test/peoplesearch
+  267  cd ..
+  268  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/test/peoplesearch
+  269  svn up svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/test/peoplesearch
+  270  cd peoplesearch/
+  271  svn up
+  272  svn up
+  273  cd 
+  274  cd ~/workspace
+  275  cd trunk/voltron/
+  276  svn status
+  277  svin review
+  278  svn st
+  279  svin review
+  280  svin review
+  281  ligradle help
+  282  gradle --help
+  283  ligradle cleantest
+  284  cd workspace/trunk/
+  285  ligradle cleantest
+  286  pwd
+  287  cd voltron
+  288  svn st
+  289  svn st
+  290  pwd
+  291  ls
+  292  cd workspace02/
+  293  ls
+  294  pwd
+  295  ls
+  296  $PATH
+  297  cd /Users/bafeng
+  298  vi ~/.profile
+  299  ls
+  300  cd /etc
+  301  ls
+  302  vi ./paths.
+  303  vi ./paths
+  304  cd ~
+  305  ls
+  306  cd ~/.bash_profile
+  307  vi ~/.bash_profile
+  308  vi ~/.profile
+  309  cd /etc
+  310  vi ./paths
+  311  cd ~
+  312  echo ‘export PATH=$PATH:/Applications/Firefox.app’ >~/.bash_profile
+  313  vi ~/.bash_profile
+  314  vi ~/.bash_profile
+  315  cd /Applications/Firefox.app/
+  316  firefox
+  317  cd content
+  318  ls
+  319  cd Contents/MacOS/
+  320  firefox
+  321  idea
+  322  ls
+  323  ./firefox
+  324  cd
+  325  cd ~
+  326  cd workspace/trunk/voltron/
+  327  svn st
+  328  ls
+  329  pwd
+  330  cd ui-test/
+  331  svn st
+  332  ssh root@bafeng-ld1 /sbin/reboot
+  333  ssh bafeng@bafeng-ld1 /sbin/reboot
+  334  cd User/bafeng
+  335  cd /Users
+  336  cd bafeng
+  337  ls
+  338  cd Firefox.app
+  339  vi ~/.bash_profile
+  340  cd Firefox.app
+  341  vi ~/.bash_profile
+  342  cd Firefox.app/
+  343  pwd
+  344  cd /Applications/IntelliJ IDEA 14.app/Contents/bin
+  345  cd /Applications/IntelliJ\ IDEA\ 14.app/
+  346  cd Contents/bin/
+  347  sudo vi ./idea.vmoptions 
+  348  vi ./idea.vmoptions 
+  349  /Applications/IntelliJ\ IDEA\ 14.app/Contents/bin/restarter ; exit;
+  350  /Applications/IntelliJ\ IDEA\ 14.app/Contents/bin/restarter ; exit;
+  351  cd workspace02/trunk/
+  352  ligradle build
+  353  ls
+  354  cd workspace02/trunk/voltron/ui-test/
+  355  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  356  cd workspace
+  357  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  358  ligradle build
+  359  pwd
+  360  cd trunk/
+  361  ligradle cleantest
+  362  ligradle idea
+  363  cd workspace/trunk/
+  364  ligradle idea
+  365  cd voltron/ui-test/
+  366  ligradle idea
+  367  cd ..
+  368  cd ..
+  369  cd ..
+  370  ./ide-bootstrap --ide idea
+  371  ls
+  372  cd trunk/
+  373  ls
+  374  ./ide-bootstrap --ide idea
+  375  cd workspace/trunk/voltron/ui-test/
+  376  ligradle clean
+  377  cd
+  378  cd workspace
+  379  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  380  cd trunk/
+  381  ligradle clean
+  382  ligradle build
+  383  cd voltron/ui-test/
+  384  ligradle clean
+  385  ligradle idea
+  386  ligradle build
+  387  ligradle -D uitf.groupsToInclude=FEDERATED_JOB_SEARCH uiTest --tests com.linkedin.voltron.ui.test.federatedsearch.SNAVoltronFederatedJobTest.testFacetLiteOnFederatedPage
+  388  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  389  ligradle build
+  390  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  391  ssh bafeng@bafeng-ld1
+  392  cd cd workspace
+  393  cd workspace/trunk/voltron/ui-test/
+  394  ligradle idea
+  395  cd ..
+  396  cd ..
+  397  cd ..
+  398  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  399  cd workspace/trunk/voltron/ui-test/
+  400  ligradle clean
+  401  cd trunk/voltron/ui-test/
+  402  ligradle clean
+  403  ligradle idea
+  404  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  405  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  406  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH
+  407  cd ..
+  408  cd ..
+  409  cd ..
+  410  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  411  cd /Users/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/pages/
+  412  svn -help
+  413  svn --help
+  414  svn co
+  415  svn diff /Users/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  416  svn st
+  417  svin review
+  418  svn ci -m “fixing transient issues:RB=639001:BW=none” SNAVoltronPeopleSearchResultsPage.java
+  419  cd workspace/trunk/voltron/ui-test/
+  420  svn ci -m “fixing transient issues:RB=639001:BW=none”/Users/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  421  cd ..
+  422  svn ci -m “fixing transient issues:RB=639001:BW=none”/Users/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  423  cd ..
+  424  svn ci -m “fixing transient issues:RB=639001:BW=none”/Users/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  425  cd ..
+  426  svn ci -m “fixing transient issues:RB=639001:BW=none”/Users/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  427  cd trunk
+  428  svn ci -m “fixing transient issues:RB=639001:BW=none”/Users/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  429  cd voltron/
+  430  svn ci -m “fixing transient issues:RB=639001:BW=none”/Users/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  431  svn ci -m “fixing transient issues:RB=639001:BW=none” voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  432  cd ..
+  433  svn ci -m “fixing transient issues:RB=639001:BW=none” voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  434  pwd
+  435  svn ci -m “fixing transient issues:RB=639001:BW=none” voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  436  svn ci -m “fixing transient issues:RB=639001:BW=none” voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  437  cd ..
+  438  svn ci -m “fixing transient issues:RB=639001:BW=none” voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  439  svn ci -m “fixing transient issues:RB=639001:BW=none” voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  440  cd workspace
+  441  cd trunk/
+  442  svn st
+  443  cd ..
+  444  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  445  cd trunk/
+  446  svn st
+  447  cd voltron/ui-test/
+  448  svn st
+  449  cd java/com/linkedin/voltron/ui/pages/
+  450  svn st
+  451  pwd
+  452  svn stat
+  453  svn ci -m “BW=none RB=639001 fixing transient” SNAVoltronPeopleSearchResultsPage.java
+  454  svn stat
+  455  svn up SNAVoltronPeopleSearchResultsPage.java
+  456  svin review
+  457  svn stat
+  458  svn ci -m “BW=none RB=639001 fixing transient” SNAVoltronPeopleSearchResultsPage.java
+  459  svn ci -m “BW=none:RB=639001:fixing_transient” SNAVoltronPeopleSearchResultsPage.java
+  460  svn ci -m “BW=none” SNAVoltronPeopleSearchResultsPage.java
+  461  cd 
+  462  cd workspace
+  463  cd trunk/
+  464  svn ci -m “BW=none” SNAVoltronPeopleSearchResultsPage.java
+  465  svn ci -m “BW=none” voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  466  cd voltron/ui-test/
+  467  cd java/com/linkedin/voltron/ui/pages/
+  468  svin st
+  469  svn help
+  470  svn commit
+  471  svn ci help
+  472  svn ci SNAVoltronPeopleSearchResultsPage.java BW=None -m "fixing transient"
+  473  svn ci -m “BW=none RB=639001 fixing transient” SNAVoltronPeopleSearchResultsPage.java
+  474  svn ci -m “fixing_transient_issues:RB=639001:BW=none” SNAVoltronPeopleSearchResultsPage.java
+  475  svn st
+  476  cdd workspace/trunk//voltron/ui-test/
+  477  cd workspace/trunk//voltron/ui-test/
+  478  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  479  cd 
+  480  cd workspace
+  481  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  482  cd trunk/voltron/ui-test/
+  483  svn st
+  484  cd workspace/
+  485  ls
+  486  bafeng@bafeng-ld1
+  487  scp bafeng@bafeng-ld1:/home/bafeng/workspace/trunk/build/voltron-ui-test/builds/reports
+  488  scp bafeng@bafeng-ld1:/home/bafeng/workspace/trunk/build/voltron-ui-test/builds/reports .
+  489  scp bafeng@bafeng-ld1:/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests .
+  490  scp -r bafeng@bafeng-ld1:/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests .
+  491  cd workspace/
+  492  scp -r bafeng@bafeng-ld1:/home/baofeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui .
+  493  scp -r bafeng@bafeng-ld1:/home/baofeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui .
+  494  scp -r bafeng@bafeng-ld1:/home/baofeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron .
+  495  scp -r bafeng@bafeng-ld1:/home/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron .
+  496  cd workspace/
+  497  scp -r bafeng@bafeng-ld1:/home/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron .
+  498  scp -r bafeng@bafeng-ld1:/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests .
+  499  scp -r bafeng@bafeng-ld1:/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests .
+  500  cd workspace/
+  501  clear
+  502  ls
+  503  history >> commandhistory.txt 
+   93  cd workspace/
+   94  $ mint checkout uitf-java-workshop
+   95  mint checkout uitf-java-workshop
+   96  ls
+   97  cd uitf-java-workshop_trunk/
+   98  mkdir workshop_edlee
+   99  ls
+  100  cd workshop_edlee/
+  101  ligradle build
+  102  ligradle idea
+  103  ls
+  104  cd workspace/
+  105  ls
+  106  cd trunk/voltron/ui-test/
+  107  ligradle build
+  108  ligradle idea
+  109  svn help
+  110  history
+  111  cd workspace/
+  112  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  113  cd trunk/voltron/ui-test/
+  114  ligradle build
+  115  ligradle idea
+  116  cd ..
+  117  cd ..
+  118  ligradle build
+  119  cd ..
+  120  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  121  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  122  cd trunk/
+  123  ligradle build
+  124  ligradle idea
+  125  cd workspace/trunk/voltron/ui-test/
+  126  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  127  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  128  /Applications/Firefox38.app/Contents/MacOS/firefox ; exit;
+  129  cd workspace/trunk/voltron/
+  130  cd ui-test/
+  131  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  132  $PATH
+  133  firefox
+  134  /Applications/Firefox38.app/Contents/MacOS/firefox
+  135  /Applications/Firefox38.app/Contents/MacOS/firefox
+  136  PATH=$PATH:/Applications/Firefox38.app/Contents/MacOS/firefox
+  137  $PATH
+  138  firefox
+  139  PATH=$PATH:/Applications/Firefox38.app/Contents/MacOS/
+  140  firefox
+  141  cd workspace/
+  142  cd trunk/voltron/ui-test/
+  143  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  144  $PATH
+  145  /Applications/Firefox.app/Contents/MacOS/FIREFOX
+  146  /Applications/Firefox.app/Contents/MacOS/FIREFOX
+  147  /Applications/Firefox.app/Contents/MacOS/FIREFOX
+  148  PATH=$PATH:/Applications/Firefox.app/Contents/MacOS/
+  149  cd workspace/trunk/voltron/ui-test/
+  150  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  151  ligradle -D uitf.groupsToInclude=GROUP_SEARCH
+  152  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch. SNAVoltronGroupSearchBasicTest.testGroupSearchInCommonConnections
+  153  ligradle -D uitf.groupsToInclude=COMPANY_SEARCH uiTest --tests com.linkedin.voltron.ui.test.companysearch.SNAVoltronCompanySeachBasicTest.testCompanySearchAction
+  154  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  155  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  156  ligradle -D uitf.groupsToInclude=GROUP_SEARCH uiTest --tests com.linkedin.voltron.ui.test.groupsearch.SNAVoltronGroupSearchBasicTest.testGroupSearchInCommonConnections
+  157  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  158  cd ..
+  159  cd ..
+  160  cd ..
+  161  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  162  ligradle build
+  163  cd trunck
+  164  ligradle idea
+  165  cd trunk/
+  166  cd voltron/ui-test/
+  167  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  168  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH_008
+  169  ligradle -D uitf.groupsToInclude=GROUP_SEARCH_SANITY uiTest
+  170  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH_HIGH_01 uiTest
+  171  ligradle -Duitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  172  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  173  cd ..
+  174  ls
+  175  ligradle -D uitf.groupsToInclude=PEOPLE_SEARCH uiTest --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  176  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH  --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  177  cd ui-test/
+  178  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH  --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  179  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH  --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  180  cd ..
+  181  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH  --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  182  cd ui-test/
+  183  ls
+  184  vi hs_err_pid2854.log
+  185  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  186  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  187  cd ..
+  188  cd ..
+  189  cd ..
+  190  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  191  cd trunk/voltron
+  192  cd ui-test/
+  193  ligradle build
+  194  ligradle idea
+  195  cd workspace/
+  196  cd trunk/voltron/
+  197  svn status
+  198  svn diff ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  199  svn diff ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java > patch.diff
+  200  svn st
+  201  svin review
+  202  /Applications/IntelliJ\ IDEA\ 14.app/Contents/MacOS/idea ; exit;
+  203  cd workspace/
+  204  cd trunk/voltron/
+  205  cd ui-test/
+  206  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  207  ligradle clean
+  208  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH_XX
+  209  ligradle clean
+  210  ligradle idea
+  211  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH_XX -Duitf.fabric=EI2 --info
+  212  cd ..
+  213  cd ..
+  214  cd ..
+  215  svn up
+  216  svn up
+  217  cd trunck
+  218  cd trunk/
+  219  svn up
+  220  cd voltron/ui-test/
+  221  ligradle clean
+  222  ligradle idea
+  223  firefox
+  224  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  225  firefox
+  226  PATH=$PATH:/Applications/Firefox.app/Contents/MacOS/
+  227  firefox
+  228  cd 
+  229  cd /Applications/
+  230  ls
+  231  cd IntelliJ\ IDEA\ 14.app/
+  232  ls
+  233  cd Contents/
+  234  ls
+  235  cd MacOS/
+  236  firefox
+  237  idea
+  238  ./idea
+  239  cd workspace/trunk/voltron/ui-test/
+  240  ligradle uiTest -Duitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  241  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  242  PATH=$PATH:/Applications/Firefox.app
+  243  firefox
+  244  $PATH
+  245  /Applications/IntelliJ IDEA 14.app/Contents/MacOS/idea
+  246  /Applications/IntelliJ\ IDEA\ 14.app/Contents/MacOS/idea 
+  247  /Applications/IntelliJ\ IDEA\ 14.app/Contents/MacOS/idea 
+  248  /Applications/IntelliJ\ IDEA\ 14.app/Contents/MacOS/idea 
+  249  cd ~
+  250  ls
+  251  ~/.bash_profile
+  252  cat ~/.bash_profile
+  253  /Applications/IntelliJ\ IDEA\ 14.app/Contents/MacOS/idea 
+  254  history
+  255  ls
+  256  cd workspace
+  257  history >a.txt
+  258  ls
+  259  cd /Users/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/test
+  260  ls
+  261  cd peoplesearch/
+  262  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/test/peoplesearch
+  263  cd ..
+  264  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/test/peoplesearch
+  265  svn up svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/test/peoplesearch
+  266  cd peoplesearch/
+  267  svn up
+  268  svn up
+  269  cd 
+  270  cd ~/workspace
+  271  cd trunk/voltron/
+  272  svn status
+  273  svin review
+  274  svn st
+  275  svin review
+  276  svin review
+  277  ligradle help
+  278  gradle --help
+  279  ligradle cleantest
+  280  cd workspace/trunk/
+  281  ligradle cleantest
+  282  pwd
+  283  cd voltron
+  284  svn st
+  285  svn st
+  286  pwd
+  287  ls
+  288  cd workspace02/
+  289  ls
+  290  pwd
+  291  ls
+  292  $PATH
+  293  cd /Users/bafeng
+  294  vi ~/.profile
+  295  ls
+  296  cd /etc
+  297  ls
+  298  vi ./paths.
+  299  vi ./paths
+  300  cd ~
+  301  ls
+  302  cd ~/.bash_profile
+  303  vi ~/.bash_profile
+  304  vi ~/.profile
+  305  cd /etc
+  306  vi ./paths
+  307  cd ~
+  308  echo ‘export PATH=$PATH:/Applications/Firefox.app’ >~/.bash_profile
+  309  vi ~/.bash_profile
+  310  vi ~/.bash_profile
+  311  cd /Applications/Firefox.app/
+  312  firefox
+  313  cd content
+  314  ls
+  315  cd Contents/MacOS/
+  316  firefox
+  317  idea
+  318  ls
+  319  ./firefox
+  320  cd
+  321  cd ~
+  322  cd workspace/trunk/voltron/
+  323  svn st
+  324  ls
+  325  pwd
+  326  cd ui-test/
+  327  svn st
+  328  ssh root@bafeng-ld1 /sbin/reboot
+  329  ssh bafeng@bafeng-ld1 /sbin/reboot
+  330  cd User/bafeng
+  331  cd /Users
+  332  cd bafeng
+  333  ls
+  334  cd Firefox.app
+  335  vi ~/.bash_profile
+  336  cd Firefox.app
+  337  vi ~/.bash_profile
+  338  cd Firefox.app/
+  339  pwd
+  340  cd /Applications/IntelliJ IDEA 14.app/Contents/bin
+  341  cd /Applications/IntelliJ\ IDEA\ 14.app/
+  342  cd Contents/bin/
+  343  sudo vi ./idea.vmoptions 
+  344  vi ./idea.vmoptions 
+  345  /Applications/IntelliJ\ IDEA\ 14.app/Contents/bin/restarter ; exit;
+  346  /Applications/IntelliJ\ IDEA\ 14.app/Contents/bin/restarter ; exit;
+  347  cd workspace02/trunk/
+  348  ligradle build
+  349  ls
+  350  cd workspace02/trunk/voltron/ui-test/
+  351  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  352  cd workspace
+  353  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  354  ligradle build
+  355  pwd
+  356  cd trunk/
+  357  ligradle cleantest
+  358  ligradle idea
+  359  cd workspace/trunk/
+  360  ligradle idea
+  361  cd voltron/ui-test/
+  362  ligradle idea
+  363  cd ..
+  364  cd ..
+  365  cd ..
+  366  ./ide-bootstrap --ide idea
+  367  ls
+  368  cd trunk/
+  369  ls
+  370  ./ide-bootstrap --ide idea
+  371  cd workspace/trunk/voltron/ui-test/
+  372  ligradle clean
+  373  cd
+  374  cd workspace
+  375  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  376  cd trunk/
+  377  ligradle clean
+  378  ligradle build
+  379  cd voltron/ui-test/
+  380  ligradle clean
+  381  ligradle idea
+  382  ligradle build
+  383  ligradle -D uitf.groupsToInclude=FEDERATED_JOB_SEARCH uiTest --tests com.linkedin.voltron.ui.test.federatedsearch.SNAVoltronFederatedJobTest.testFacetLiteOnFederatedPage
+  384  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  385  ligradle build
+  386  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  387  ssh bafeng@bafeng-ld1
+  388  cd cd workspace
+  389  cd workspace/trunk/voltron/ui-test/
+  390  ligradle idea
+  391  cd ..
+  392  cd ..
+  393  cd ..
+  394  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  395  cd workspace/trunk/voltron/ui-test/
+  396  ligradle clean
+  397  cd trunk/voltron/ui-test/
+  398  ligradle clean
+  399  ligradle idea
+  400  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  401  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH --tests com.linkedin.voltron.ui.test.peoplesearch.SNAVoltronPeopleSearchVerifySuperpillInfoTest.testVerifyFacetSelectionAndFacetpillInfo
+  402  ligradle uiTest -D uitf.groupsToInclude=PEOPLE_SEARCH
+  403  cd ..
+  404  cd ..
+  405  cd ..
+  406  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  407  cd /Users/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/pages/
+  408  svn -help
+  409  svn --help
+  410  svn co
+  411  svn diff /Users/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  412  svn st
+  413  svin review
+  414  svn ci -m “fixing transient issues:RB=639001:BW=none” SNAVoltronPeopleSearchResultsPage.java
+  415  cd workspace/trunk/voltron/ui-test/
+  416  svn ci -m “fixing transient issues:RB=639001:BW=none”/Users/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  417  cd ..
+  418  svn ci -m “fixing transient issues:RB=639001:BW=none”/Users/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  419  cd ..
+  420  svn ci -m “fixing transient issues:RB=639001:BW=none”/Users/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  421  cd ..
+  422  svn ci -m “fixing transient issues:RB=639001:BW=none”/Users/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  423  cd trunk
+  424  svn ci -m “fixing transient issues:RB=639001:BW=none”/Users/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  425  cd voltron/
+  426  svn ci -m “fixing transient issues:RB=639001:BW=none”/Users/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  427  svn ci -m “fixing transient issues:RB=639001:BW=none” voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  428  cd ..
+  429  svn ci -m “fixing transient issues:RB=639001:BW=none” voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  430  pwd
+  431  svn ci -m “fixing transient issues:RB=639001:BW=none” voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  432  svn ci -m “fixing transient issues:RB=639001:BW=none” voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  433  cd ..
+  434  svn ci -m “fixing transient issues:RB=639001:BW=none” voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  435  svn ci -m “fixing transient issues:RB=639001:BW=none” voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  436  cd workspace
+  437  cd trunk/
+  438  svn st
+  439  cd ..
+  440  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  441  cd trunk/
+  442  svn st
+  443  cd voltron/ui-test/
+  444  svn st
+  445  cd java/com/linkedin/voltron/ui/pages/
+  446  svn st
+  447  pwd
+  448  svn stat
+  449  svn ci -m “BW=none RB=639001 fixing transient” SNAVoltronPeopleSearchResultsPage.java
+  450  svn stat
+  451  svn up SNAVoltronPeopleSearchResultsPage.java
+  452  svin review
+  453  svn stat
+  454  svn ci -m “BW=none RB=639001 fixing transient” SNAVoltronPeopleSearchResultsPage.java
+  455  svn ci -m “BW=none:RB=639001:fixing_transient” SNAVoltronPeopleSearchResultsPage.java
+  456  svn ci -m “BW=none” SNAVoltronPeopleSearchResultsPage.java
+  457  cd 
+  458  cd workspace
+  459  cd trunk/
+  460  svn ci -m “BW=none” SNAVoltronPeopleSearchResultsPage.java
+  461  svn ci -m “BW=none” voltron/ui-test/java/com/linkedin/voltron/ui/pages/SNAVoltronPeopleSearchResultsPage.java
+  462  cd voltron/ui-test/
+  463  cd java/com/linkedin/voltron/ui/pages/
+  464  svin st
+  465  svn help
+  466  svn commit
+  467  svn ci help
+  468  svn ci SNAVoltronPeopleSearchResultsPage.java BW=None -m "fixing transient"
+  469  svn ci -m “BW=none RB=639001 fixing transient” SNAVoltronPeopleSearchResultsPage.java
+  470  svn ci -m “fixing_transient_issues:RB=639001:BW=none” SNAVoltronPeopleSearchResultsPage.java
+  471  svn st
+  472  cdd workspace/trunk//voltron/ui-test/
+  473  cd workspace/trunk//voltron/ui-test/
+  474  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  475  cd 
+  476  cd workspace
+  477  svn co svn+ssh://svn.corp.linkedin.com/netrepo/network/trunk
+  478  cd trunk/voltron/ui-test/
+  479  svn st
+  480  cd workspace/
+  481  ls
+  482  bafeng@bafeng-ld1
+  483  scp bafeng@bafeng-ld1:/home/bafeng/workspace/trunk/build/voltron-ui-test/builds/reports
+  484  scp bafeng@bafeng-ld1:/home/bafeng/workspace/trunk/build/voltron-ui-test/builds/reports .
+  485  scp bafeng@bafeng-ld1:/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests .
+  486  scp -r bafeng@bafeng-ld1:/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests .
+  487  cd workspace/
+  488  scp -r bafeng@bafeng-ld1:/home/baofeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui .
+  489  scp -r bafeng@bafeng-ld1:/home/baofeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron/ui .
+  490  scp -r bafeng@bafeng-ld1:/home/baofeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron .
+  491  scp -r bafeng@bafeng-ld1:/home/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron .
+  492  cd workspace/
+  493  scp -r bafeng@bafeng-ld1:/home/bafeng/workspace/trunk/voltron/ui-test/java/com/linkedin/voltron .
+  494  scp -r bafeng@bafeng-ld1:/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests .
+  495  scp -r bafeng@bafeng-ld1:/home/bafeng/workspace/trunk/build/voltron-ui-test/reports/tests .
+  496  cd workspace/
+  497  clear
+  498  ls
+  499  history >> commandhistory.txt 
+  500  cd trunk/
+  501  ls
+  502  cd federated-search/
+  503  ls
+  504  cd groupsearch-int-test/
+  505  ls
+  506  cd java/
+  507  ls
+  508  cd test
+  509  ls
+  510  cd groupsearch/
+  511  ls
+  512  cd galene/
+  513  ls
+  514  cd helper/
+  515  ls
+  516  vi GroupTestConst.java 
+  517  vi GroupTestUtil.java 
+  518  vi GroupTestUtil.java 
+  519  cd ..
+  520  ls
+  521  cd ../..
+  522  cd ../..
+  523  cd ..
+  524  grep -ir searchType .
+  525  vi slideshare-int-test/java/test/slidesharesearch/slidesharesearchhelpers/SlideshareSearchHelper.java
+  526  cd groupsearch-int-test/
+  527  ls
+  528  cd java/
+  529  ls
+  530  ls
+  531  cd test/
+  532  ls
+  533  cd groupsearch/
+  534  ls
+  535  cd galene/
+  536  ls
+  537  cd helper/
+  538  ls
+  539  vi GroupTestUtil.java 
+  540  cd ..
+  541  cd ..
+  542  cd ..
+  543  cd ..
+  544  cd ..
+  545  cd ..
+  546  ls 
+  547  cd ..
+  548  ls
+  549  cd federated-search/
+  550  ls
+  551  cd galene-helper/
+  552  ls
+  553  cd src
+  554  ls
+  555  cd ../..
+  556  cd int-test-helper/
+  557  ls
+  558  cd src/main/java/com/linkedin/federatedsearch/Util/GenericSearchHelper/
+  559  ls
+  560  vi GenericSearchTestHelper.java 
+  561  cd ..
+  562  cd ..
+  563  cd ..
+  564  cd ..
+  565  cd ..
+  566  cd ..
+  567  pwd
+  568  cd ..
+  569  cd ..
+  570  cd ..
+  571  cd ..
+  572  ls
+  573  cd federated-search/
+  574  ls
+  575  cd groupsearch-int-test/
+  576  ls
+  577  cd java/
+  578  ls
+  579  cd test/groupsearch/galene/
+  580  ls
+  581  cd helper/
+  582  ls
+  583  cd GroupTestUtil.java 
+  584  pwd
+  585  cd ..
+  586  cd ..
+  587  ls
+  588  cd
+  589  ls
+  590  cd workspace/
+  591  ls
+  592  history >>commandhistory.txt 
